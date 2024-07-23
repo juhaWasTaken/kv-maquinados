@@ -1,0 +1,14 @@
+{
+  "word": "inicio",
+  "contact": "Contacto",
+  "services": "Servicios",
+  "about_us": "Sobre Nosotros",
+  "portfolio": "Portafolio",
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "about_us": "Sobre Nosotros",
+    "portfolio": "Portafolio"
+  }
+}

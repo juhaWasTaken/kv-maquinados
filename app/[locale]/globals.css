@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+  }
+
+  .nav-link:hover {
+    background-color: #ff9302;
+    color: white;
+  }
+
+  .nav-link-active {
+    background-color: #ff9302;
+    color: white;
+  }
+
+  @media (min-width: 768px) {
+    .nav-link {
+      background-color: transparent;
+      color: black;
+      padding: 0;
+    }
+
+    .nav-link:hover {
+      background-color: transparent;
+      color: #ff9302;
+    }
+
+    .nav-link-active {
+      background-color: transparent;
+      color: #ff9302;
+    }
+  }
+
+  .servShadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+  .font-custom-calc {
+    font-size: clamp(22px, 3vw, 42px);
+  }
+
+  .font-custom-clamp {
+    font-size: clamp(14px, 1vw, 18px);
+  }
+
+  /* =========== SERVICES SECTION ============== */
+  .parallax-section {
+    position: relative;
+    background-image: url("../../assets/images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+
+  .parallax-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,
+        0,
+        0,
+        0.5);
+    /* Optional: Adds an overlay for better readability */
+    z-index: 0;
+  }
+
+  @media (max-width: 768px) {
+    .parallax-section {
+      background-attachment: scroll;
+      min-height: 400px;
+      /* Adjust as needed */
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* Align to bottom for smaller devices */
+    align-items: end;
+    @apply md:items-end md:justify-start;
+    /* Align to top-right for medium devices and up */
+    padding: 0 0 40px 0;
+  }
+
+  .content-inner {
+    position: relative;
+    z-index: 1;
+    background: rgba(255,
+        255,
+        255,
+        0.86);
+    /* Optional: Adds a semi-transparent background to your content for better readability */
+  }
+
+  /* ============ FOOTER SECTION =========== */
+  .parallax-section2 {
+    position: relative;
+    background-image: url("../../assets/images/image2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .parallax-section2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,
+        0,
+        0,
+        0.6);
+    /* Optional: Adds an overlay for better readability */
+    z-index: 0;
+  }
+
+  @media (max-width: 768px) {
+    .parallax-section {
+      background-attachment: scroll;
+      min-height: 400px;
+      /* Adjust as needed */
+    }
+  }
+
+}
+
+@layer utilities {
+  .bg-gradient-custom {
+    background: linear-gradient(90deg, #f1efed, #eeedeb59),
+      url("../../assets/images/dotPatter.png");
+  }
+}
+
+@layer components {
+  .content-custom {
+    @apply max-w-[857px] pt-[35px] px-[28px] pb-[28px];
+  }
+
+  .parallax-section {
+    @apply pb-0;
+  }
+
+  @screen md {
+    .content-custom {
+      @apply pt-[60px] px-[37px] pb-[30px];
+    }
+
+    .parallax-section {
+      @apply pb-[40px];
+    }
+  }
+
+  @screen lg {
+    .content-custom {
+      @apply pt-[80px] px-[48px] pb-[48px];
+    }
+  }
+}

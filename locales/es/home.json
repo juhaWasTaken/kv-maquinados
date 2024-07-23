@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "about_us": "Sobre Nosotros",
+    "portfolio": "Portafolio"
+  },
+  "schedule": "Lunes - Sábado 8:00 - 17:00",
+  "location": "Reynosa, Tamaulipas, México",
+  "header": {
+    "title-pt1": "Construyendo sueños",
+    "title-pt2": "a través de la construcción",
+    "slogan": "Construimos, hacemos",
+    "text": "En JG & Servicios Industriales, hacemos su visión realidad. Desde la fase inicial de diseño hasta los toques finales",
+    "button-1": "Contáctanos",
+    "button-2": "Ver Portafolio"
+  },
+  "aboutHome": {
+    "section": "Sobre Nosotros",
+    "title": "Mejorando propiedades para su satisfacción",
+    "phrase": "Con años de experiencia en la industria, estamos comprometidos a entregar resultados excepcionales que superen las expectativas de nuestros clientes.",
+    "text-1": "Enim ultrices iaculis letius parturient mi mauris congue potenti nam. Faucibus sollicitudin vivamus nibh finibus molestie. Vel ullamcorper nulla pretium accumsan donec sodales metus. Montes consequat quis parturient tempor nam ante. Auctor quisque hendrerit eu integer arcu posuere placerat senectus in convallis. Torquent turpis tortor imperdiet finibus luctus sodales tincidunt cursus pulvinar fusce.",
+    "text-2": "Fermentum laoreet neque magnis congue etiam scelerisque id. Nec morbi nullam sed natoque aenean ut.",
+    "btn-txt": "Sobre Nosotros"
+  },
+  "contactHome": {
+    "title": "Trabajemos juntos para crear soluciones de construcción sostenibles e innovadoras",
+    "text": "Estamos aquí para ayudarlo con sus necesidades de construcción. No dude en contactarnos para obtener más información o para programar una consulta.",
+    "btn-txt": "Contáctanos"
+  },
+  "servicesHome": {
+    "section": "Nuestros Servicios",
+    "title": "Escuchar Mejor. Planificar Mejor. Construir Mejor",
+    "services": {
+      "service-1": {
+        "title": "Construcción General",
+        "text": "Ofrecemos una amplia gama de servicios de construcción general para proyectos residenciales y comerciales. Nuestro equipo de expertos lo ayudará a dar vida a su visión."
+      },
+      "service-2": {
+        "title": "Diseño y Construcción",
+        "text": "Ofrecemos una amplia gama de servicios de construcción general para proyectos residenciales y comerciales. Nuestro equipo de expertos lo ayudará a dar vida a su visión."
+      },
+      "service-3": {
+        "title": "Renovación y Remodelación",
+        "text": "Ya sea que necesite una renovación completa o solo algunas actualizaciones, podemos ayudarlo. Nuestro equipo tiene las habilidades y la experiencia para transformar."
+      },
+      "service-4": {
+        "title": "Gestión de Proyectos",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. Trabajaremos con usted en cada paso del camino."
+      },
+      "service-5": {
+        "title": "Consultoría",
+        "text": "Nuestros servicios de consultoría son perfectos para aquellos que necesitan asesoramiento experto en su proyecto de construcción. "
+      },
+      "service-6": {
+        "title": "Mantenimiento",
+        "text": "Ofrecemos una variedad de servicios de mantenimiento para mantener su propiedad en óptimas condiciones. Desde reparaciones hasta inspecciones, lo tenemos cubierto."
+      }
+    },
+    "btn-txt": "Saber Más"
+  },
+  "sectorHome": {
+    "title": "Sector donde trabajamos",
+    "text": "Trabajamos en una variedad de sectores, incluyendo comercial, residencial, industrial, gobierno, salud y hospitalidad.",
+    "sectors": {
+      "sector-1": {
+        "title": "Comercial",
+        "text": "Ofrecemos una amplia gama de servicios comerciales, incluyendo pintura, remodelación, y más."
+      },
+      "sector-2": {
+        "title": "Residencial",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. "
+      },
+      "sector-3": {
+        "title": "Industrial",
+        "text": "Ofrecemos servicios especializados para instalaciones industriales, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-4": {
+        "title": "Gobierno",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos gubernamentales, incluyendo escuelas, hospitales, y otros edificios públicos."
+      },
+      "sector-5": {
+        "title": "Salud",
+        "text": "Ofrecemos servicios especializados para instalaciones de salud, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-6": {
+        "title": "Hospitalidad",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales."
+      }
+    }
+  },
+  "latestProjects": {
+    "section": "Nuestros Últimos Proyectos",
+    "title": "Nuestros Últimos Proyectos",
+    "text": "Magna penatibus laoreet faucibus neque litora cubilia nisl. Donec facilisi justo efficitur cras fusce at nibh lacinia dictumst turpis condimentum. Bibendum porta fringilla facilisi sodales leo turpis luctus. Primis interdum parturient duis quisque ornare nulla.",
+    "projects": {
+      "project-1": {
+        "name": "Gran Fábrica",
+        "type": "Industrial"
+      },
+      "project-2": {
+        "name": "Super Fábrica",
+        "type": "Comercial"
+      },
+      "project-3": {
+        "name": "Casa de Lujo",
+        "type": "Industrial"
+      },
+      "project-4": {
+        "name": "Fábrica Genial",
+        "type": "Salud"
+      },
+      "project-5": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Residencial"
+      },
+      "project-6": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Industrial"
+      }
+    }
+  },
+  "footerCTA": "Hagamos realidad su proyecto hoy",
+  "footer": {
+    "phrase": "Nisi conubia taciti eget erat auctor. Ridiculus sodales dui dis arcu dictumst sed magna per",
+    "linksTitle": "Links Útiles",
+    "contactTitle": "Información de Contacto",
+    "contact": {
+      "address": "1234 Calle Principal, Reynosa, Tamaulipas, Mexico",
+      "schedule": "Lun - Sab : 08:00-17:00"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "word": "Start",
+  "contact": "Contact",
+  "services": "Services",
+  "about_us": "About Us",
+  "portfolio": "Portfolio",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact",
+    "about_us": "About Us",
+    "portfolio": "Portfolio"
+  }
+}

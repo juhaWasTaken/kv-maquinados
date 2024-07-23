@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact",
+    "about_us": "About Us",
+    "portfolio": "Portfolio"
+  },
+  "schedule": "Sunday - Saturday 8:00 - 17:00",
+  "location": "Reynosa, Tamaulipas, Mexico",
+  "header": {
+    "title-pt1": "Building dreams",
+    "title-pt2": "through construction",
+    "slogan": "We build, We Craft",
+    "text": "At JG & Servicios Industriales, we turn your vision into reality. From the initial design phase to the final touches",
+    "button-1": "Get Started",
+    "button-2": "See Portfolio"
+  },
+  "aboutHome": {
+    "section": "About Us",
+    "title": "Improving properties for your satisfaction",
+    "phrase": "With years of experience in the industry, we are committed to delivering exceptional results that exceed our clients’ expectations.",
+    "text-1": "Enim ultrices iaculis letius parturient mi mauris congue potenti nam. Faucibus sollicitudin vivamus nibh finibus molestie. Vel ullamcorper nulla pretium accumsan donec sodales metus. Montes consequat quis parturient tempor nam ante. Auctor quisque hendrerit eu integer arcu posuere placerat senectus in convallis. Torquent turpis tortor imperdiet finibus luctus sodales tincidunt cursus pulvinar fusce.",
+    "text-2": "Fermentum laoreet neque magnis congue etiam scelerisque id. Nec morbi nullam sed natoque aenean ut.",
+    "btn-txt": "More About Us"
+  },
+  "contactHome": {
+    "title": "Let's work together to create sustainable and innovative construction solutions",
+    "text": "We are here to help you with your construction needs. Please feel free to contact us for more information or to schedule a consultation.",
+    "btn-txt": "Contact Us"
+  },
+  "servicesHome": {
+    "section": "Our Services",
+    "title": "Listen Better. Plan Better. Build Better",
+    "services": {
+      "service-1": {
+        "title": "General Construction",
+        "text": "We provide a wide range of general construction services for both residential and commercial projects. Our team of experts will help you bring your vision to life."
+      },
+      "service-2": {
+        "title": "Design & Build",
+        "text": "Our design and build services are tailored to your specific needs. We work closely with you to create a custom design that meets your requirements and budget."
+      },
+      "service-3": {
+        "title": "Renovation & Remodeling",
+        "text": "Whether you need a complete renovation or just a few updates, we can help. Our team has the skills and experience to transform your space into something beautiful."
+      },
+      "service-4": {
+        "title": "Project Management",
+        "text": "Our project management services are designed to help you stay on track and on budget. We will work with you every step of the way to ensure your project is a success."
+      },
+      "service-5": {
+        "title": "Consulting",
+        "text": "Our consulting services are perfect for those who need expert advice on their construction project. We will help you navigate the process and make informed decisions."
+      },
+      "service-6": {
+        "title": "Maintenance",
+        "text": "We offer a range of maintenance services to keep your property in top condition. From repairs to inspections, we have you covered."
+      }
+    },
+    "btn-txt": "Learn More"
+  },
+  "sectorHome": {
+    "title": "Sector we work in",
+    "text": "We work in a variety of sectors, including residential, commercial, industrial, and more. Our team has the skills and experience to handle projects of all sizes and scopes.",
+    "sectors": {
+      "sector-1": {
+        "title": "Commercial",
+        "text": "We provide a wide range of services for commercial properties, including office buildings, retail spaces, and industrial facilities."
+      },
+      "sector-2": {
+        "title": "Residential",
+        "text": "Our residential services include interior and exterior painting, drywall repair, and more."
+      },
+      "sector-3": {
+        "title": "Industrial",
+        "text": "We offer a variety of industrial services, including epoxy flooring, sandblasting, and more."
+      },
+      "sector-4": {
+        "title": "Government",
+        "text": "Our team has experience working on government projects, including schools, hospitals, and other public buildings."
+      },
+      "sector-5": {
+        "title": "Healthcare",
+        "text": "We provide specialized services for healthcare facilities, including infection control, lead abatement, and more."
+      },
+      "sector-6": {
+        "title": "Hospitality",
+        "text": "Our team has experience working on hospitality projects, including hotels, restaurants, and other commercial properties."
+      }
+    }
+  },
+  "latestProjects": {
+    "section": "Our Latest Projects",
+    "title": "Construction industry at its finest",
+    "text": "Magna penatibus laoreet faucibus neque litora cubilia nisl. Donec facilisi justo efficitur cras fusce at nibh lacinia dictumst turpis condimentum. Bibendum porta fringilla facilisi sodales leo turpis luctus. Primis interdum parturient duis quisque ornare nulla.",
+    "projects": {
+      "project-1": {
+        "name": "Great Factory",
+        "type": "Industrial"
+      },
+      "project-2": {
+        "name": "Super Factory",
+        "type": "Commercial"
+      },
+      "project-3": {
+        "name": "Luxury Home",
+        "type": "Industrial"
+      },
+      "project-4": {
+        "name": "Cool Factory",
+        "type": "Healthcare"
+      },
+      "project-5": {
+        "name": "Hospitality Project",
+        "type": "Residential"
+      },
+      "project-6": {
+        "name": "Awesome Factory",
+        "type": "Industrial"
+      }
+    }
+  },
+  "footerCTA": "Let's start your project to be realize",
+  "footer": {
+    "phrase": "Nisi conubia taciti eget erat auctor. Ridiculus sodales dui dis arcu dictumst sed magna per",
+    "linksTitle": "Useful Links",
+    "contactTitle": "Contact Info",
+    "contact": {
+      "address": "1234 Main Street, Reynosa, Tamaulipas, Mexico",
+      "schedule": "Mon - Fri : 08:00-17:00"
+    }
+  }
+}
