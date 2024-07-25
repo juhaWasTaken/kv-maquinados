@@ -46,7 +46,7 @@ export function CarouselSize() {
             opts={{
                 align: "start",
             }}
-            className="w-full max-w-sm"
+            className="w-full max-w-full md:max-w-xs lg:max-w-md"
         >
             <CarouselContent>
                 {testimonials.map((testimonial, index) => (
@@ -55,7 +55,7 @@ export function CarouselSize() {
                             <Card className="h-full border-none shadow-none">
                                 <CardContent className="flex flex-col justify-between p-0 h-full">
                                     <p className="text-sm md:text-[15px] lg:text-[18px] text-[#3a3a3a] mb-4 italic">"{testimonial.testimonial}"</p>
-                                    <div>
+                                    <div className="flex flex-col flex-grow">
                                         <p className={`${rajdhani.className} text-[17px] md:text-lg lg:text-[19px] font-bold`}>{testimonial.name}</p>
                                         <p className="text-sm md:text-[15px] lg:text-base text-[#ff9302]">{testimonial.company}</p>
                                     </div>

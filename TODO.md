@@ -15,3 +15,6 @@ HomePage
 About Us
 * Traducir links del header
 
+Portfolio
+* Cambiar imagen del header
+
