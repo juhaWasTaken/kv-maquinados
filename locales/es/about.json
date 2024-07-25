@@ -1,0 +1,55 @@
+{
+    "title": "Sobre Nuestra Empresa",
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "title-2": "¿Alguna pregunta que quieras hacer?",
+        "imageText": "Laoreet inceptos purus lorem euismod augue class luctus libero.",
+        "btnText": "Contáctanos",
+        "questions": {
+            "q1": {
+                "question": "¿Cuál es la misión de la empresa?",
+                "answer": "Nuestra misión es brindar el mejor servicio a nuestros clientes."
+            },
+            "q2": {
+                "question": "¿Cuánto tiempo lleva la empresa en el negocio?",
+                "answer": "Hemos estado en el negocio por más de 20 años."
+            },
+            "q3": {
+                "question": "¿Cuáles son los valores de la empresa?",
+                "answer": "Nuestros valores son honestidad, integridad y respeto."
+            },
+            "q4": {
+                "question": "¿Cuál es la visión de la empresa?",
+                "answer": "Nuestra visión es ser la mejor empresa en la industria."
+            },
+            "q5": {
+                "question": "¿Cuál es el objetivo de la empresa?",
+                "answer": "Nuestro objetivo es brindar el mejor servicio a nuestros clientes."
+            }
+        }
+    },
+    "choose": {
+        "section": "Por qué Elegirnos",
+        "title": "Seguro construimos impresionante",
+        "text": "Somos un equipo de profesionales dedicados a brindar el mejor servicio a nuestros clientes. Hemos estado en el negocio por más de 20 años y tenemos un historial comprobado de éxito.",
+        "numProjectsTxt": "Proyectos realizados",
+        "reasons": {
+            "r1": {
+                "title": "Más de 32 años de experiencia",
+                "text": "Hemos estado en el negocio por más de 32 años y tenemos un historial comprobado de éxito."
+            },
+            "r2": {
+                "title": "Profesional y Experto",
+                "text": "Somos un equipo de profesionales dedicados a brindar el mejor servicio a nuestros clientes."
+            },
+            "r3": {
+                "title": "Preciso y Confiable",
+                "text": "Estamos comprometidos a brindar un servicio preciso y confiable a nuestros clientes."
+            },
+            "r4": {
+                "title": "Soporte Premium 24/7",
+                "text": "Ofrecemos soporte premium 24/7 a todos nuestros clientes."
+            }
+        }
+    }
+}

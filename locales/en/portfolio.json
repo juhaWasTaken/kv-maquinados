@@ -1,0 +1,53 @@
+{
+  "title": "Portfolio",
+  "latestProjects": {
+    "section": "Our Latest Projects",
+    "title": "Construction industry at its finest",
+    "text": "This are some of our latest projects. We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems. Our products are designed for small to medium size companies willing to optimize their performance.",
+    "click": "Click me!",
+    "projects": {
+      "project-1": {
+        "name": "Great Factory",
+        "type": "Industrial"
+      },
+      "project-2": {
+        "name": "Super Factory",
+        "type": "Commercial"
+      },
+      "project-3": {
+        "name": "Luxury Home",
+        "type": "Industrial"
+      },
+      "project-4": {
+        "name": "Cool Factory",
+        "type": "Healthcare"
+      },
+      "project-5": {
+        "name": "Hospitality Project",
+        "type": "Residential"
+      },
+      "project-6": {
+        "name": "Awesome Factory",
+        "type": "Industrial"
+      },
+      "project-7": {
+        "name": "Amazing Factory",
+        "type": "Industrial"
+      },
+      "project-8": {
+        "name": "Incredible Factory",
+        "type": "Commercial"
+      },
+      "project-9": {
+        "name": "Fantastic Factory",
+        "type": "Industrial"
+      }
+    }
+  },
+  "ideas": {
+    "section": "Ideas to reality",
+    "title": "Constructing Your Dream House with Passion",
+    "text": "We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems. Our products are designed for small to medium size companies willing to optimize their performance.",
+    "btnTxt": "Discover more"
+  }
+}

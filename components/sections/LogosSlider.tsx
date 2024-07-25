@@ -8,7 +8,7 @@ import fresenius from "../../assets/images/logos/fresenius.svg"
 import genie from "../../assets/images/logos/genie.svg"
 import topcon from "../../assets/images/logos/topcon.svg"
 
-export function LogoSlider() {
+export function LogoSlider({className=""}) {
     const logos = [
         { src: actaris, alt: 'Actaris Logo' },
         { src: carecredit, alt: 'Care Credit Logo' },
@@ -20,7 +20,7 @@ export function LogoSlider() {
         { src: topcon, alt: 'Topcon Logo' },
     ];
     return (
-        <div className="relative overflow-hidden py-7 mx-auto max-w-[1280px]">
+        <div className={`relative overflow-hidden mx-auto max-w-[1280px] ${className}`}>
             <div className="relative">
                 <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent z-10"></div>
                 <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent z-10"></div>

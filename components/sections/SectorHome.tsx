@@ -34,13 +34,13 @@ const sectorsInfo = [
     }
 ]
 
-export function ParallaxSection() {
+export function ParallaxSection({className =""}) {
 
     const pathname = usePathname()
     const {t} = useTranslation();
 
     return (
-        <section className="parallax-section mb-20 mt-32">
+        <section className={`parallax-section ${className}`}>
             <div className="content max-w-[1280px] mx-auto relative pl-5">
                 <div className="content-inner bg-white/86 content-custom max-w-[857px]">
                     <h2 className={`${rajdhani.className} text-[31px] md:text-[38px] lg:text-[46px] mb-3 text-[#13213C]`}>{t('sectorHome.title')}<span className="text-[#ff9302]">.</span></h2>

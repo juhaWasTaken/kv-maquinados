@@ -2,20 +2,20 @@
 
 import Image from "next/image"
 import { Rajdhani } from "next/font/google";
-import worker from "/assets/images/worker.jpg"
+import worker from "../../assets/images/worker.jpg"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
-export function AboutHome() {
+export function AboutHome({className=""}) {
 
     const pathname = usePathname()
     const {t} = useTranslation();
 
     return (
-        <section className="max-w-[1280px] mx-auto pb-10 lg:pb-20 relative">
+        <section className={`max-w-[1280px] mx-auto relative ${className}`}>
             <div className="bg-gradient-custom ">
                 <div className="p-5 md:p-10 flex flex-col lg:flex-row py-[48px] pb-[32px] ">
                     <div className="mb-10 lg:max-w-[405px]">

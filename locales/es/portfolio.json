@@ -1,0 +1,53 @@
+{
+  "title": "Portafolio",
+  "latestProjects": {
+    "section": "Nuestros Últimos Proyectos",
+    "title": "Nuestros Últimos Proyectos",
+    "text": "Estos son algunos de nuestros últimos proyectos. Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. ",
+    "click": "Click!",
+    "projects": {
+      "project-1": {
+        "name": "Gran Fábrica",
+        "type": "Industrial"
+      },
+      "project-2": {
+        "name": "Super Fábrica",
+        "type": "Comercial"
+      },
+      "project-3": {
+        "name": "Casa de Lujo",
+        "type": "Industrial"
+      },
+      "project-4": {
+        "name": "Fábrica Genial",
+        "type": "Salud"
+      },
+      "project-5": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Residencial"
+      },
+      "project-6": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Industrial"
+      },
+      "project-7": {
+        "name": "Fábrica Asombrosa",
+        "type": "Industrial"
+      },
+      "project-8": {
+        "name": "Fábrica Increíble",
+        "type": "Comercial"
+      },
+      "project-9": {
+        "name": "Fábrica Fantástica",
+        "type": "Industrial"
+      }
+    }
+  },
+  "ideas": {
+    "section": "Tus ideas a la realidad",
+    "title": "Construyendo tu casa de ensueño con pasión",
+    "text": "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. Nuestros productos están diseñados para empresas de pequeño y mediano tamaño dispuestas a optimizar su rendimiento.",
+    "btnTxt": "Descubre más"
+  }
+}

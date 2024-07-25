@@ -14,7 +14,7 @@ export function HeaderSection() {
     const {t} = useTranslation();
 
     return (
-        <section className="relative h-[620px] md:h-[672px] bg-cover bg-center bg-[url('../../assets/images/image3.jpg')]" >
+        <section className="relative h-[620px] md:h-[672px] bg-cover bg-center bg-image3Header" >
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 flex items-center max-w-[1280px] h-full mx-auto">
                 <div className=" text-white max-w-[652px] m-5">

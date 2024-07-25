@@ -16,7 +16,7 @@ interface Params {
   locale: string;
 }
 
-const i18nNamespaces = ["home", "common"]
+const i18nNamespaces = ["home","about", "portfolio"]
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;
@@ -29,15 +29,15 @@ export default async function Home({ params }: { params: Params }) {
     <TranslationsProvider locale={locale} resources={resources} namespaces={i18nNamespaces}>
       <Navbar />
       <HeaderSection />
-      <LogoSlider />
+      <LogoSlider className="py-7" />
       <main>
-        <AboutHome />
+        <AboutHome className="pb-10 lg:pb-20" />
         <ContactCTA />
         <ServicesHome />
-        <ParallaxSection />
+        <ParallaxSection className="mt-24 mb-20" />
         <LatestProjects />
       </main>
-      <FooterCTA />
+      <FooterCTA className="mb-20 mt-32" />
       <Footer />
     </TranslationsProvider>
   );

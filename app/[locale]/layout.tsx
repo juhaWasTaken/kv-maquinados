@@ -1,12 +1,10 @@
 import "./globals.css";
 import { Rubik } from "next/font/google";
-import {Rajdhani} from "next/font/google";
 import type { Metadata } from "next";
 import i18nConfig from "@/i18nConfig";
 import { dir } from 'i18next';
 
 const rubik = Rubik({ subsets: ["latin"] });
-const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 export const metadata: Metadata = {
   title: "KV Maquinados",

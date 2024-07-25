@@ -7,13 +7,13 @@ import { useTranslation } from "react-i18next"
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' })
 
-export function FooterCTA() {
+export function FooterCTA({className = ""}) {
 
     const pathname = usePathname()
     const { t } = useTranslation()
 
     return (
-        <section className="parallax-section2 mb-20 mt-32">
+        <section className={`${className} parallax-section2 `}>
             <div className="flex flex-col lg:flex-row gap-3 items-center justify-between max-w-[1280px] mx-auto relative py-12 md:px-5 lg:px-3">
                 <h2 className={`${rajdhani.className} text-[31px] md:text-[38px] lg:text-[46px] text-white text-center `}>
                     {t('footerCTA')}

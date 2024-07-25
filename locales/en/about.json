@@ -1,0 +1,55 @@
+{
+    "title": "About Company",
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "title-2": "Any questions you want to ask?",
+        "imageText": "Laoreet inceptos purus lorem euismod augue class luctus libero.",
+        "btnText": "Contact Us",
+        "questions": {
+            "q1": {
+                "question": "What is the company's mission?",
+                "answer": "Our mission is to provide the best service to our customers."
+            },
+            "q2": {
+                "question": "How long has the company been in business?",
+                "answer": "We have been in business for over 20 years."
+            },
+            "q3": {
+                "question": "What are the company's values?",
+                "answer": "Our values are honesty, integrity, and respect."
+            },
+            "q4": {
+                "question": "What is the company's vision?",
+                "answer": "Our vision is to be the best company in the industry."
+            },
+            "q5": {
+                "question": "What is the company's goal?",
+                "answer": "Our goal is to provide the best service to our customers."
+            }
+        }
+    },
+    "choose": {
+        "section": "Why Choose Us",
+        "title": "Sure we build impressive",
+        "text": "We are a team of professionals who are dedicated to providing the best service to our customers. We have been in business for over 20 years and have a proven track record of success.",
+        "numProjectsTxt": "Projects done",
+        "reasons": {
+            "r1": {
+                "title": "Over 32 years of experience",
+                "text": "We have been in business for over 32 years and have a proven track record of success."
+            },
+            "r2": {
+                "title": "Professional & Expert",
+                "text": "We are a team of professionals who are dedicated to providing the best service to our customers."
+            },
+            "r3": {
+                "title": "Accurate & Reliable",
+                "text": "We are committed to providing accurate and reliable service to our customers."
+            },
+            "r4": {
+                "title": "24/7 Premium Support",
+                "text": "We offer 24/7 premium support to all of our customers."
+            }
+        }
+    }
+}

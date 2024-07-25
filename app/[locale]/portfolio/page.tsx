@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components/sections/Navbar";
+import { HeaderPortfolio } from "./components/HeaderPortfolio";
+import { LatestProjectsPortfolio } from "./components/LatestPortfolio";
+import { ServicesPortfolio } from "./components/ServicesPortfolio";
+import { FooterCTA } from "@/components/sections/FooterCTA";
+import { Footer } from "@/components/sections/Footer";
+import { TestimonialsPortfolio } from "./components/TestimonialsPortfolio";
 import initTranslations from "../../i18n";
 import TranslationsProvider from "@/components/TranslationsProvider";
 import LanguageChanger from "@/components/LanguajeChanger";
@@ -10,7 +16,7 @@ interface Params {
   locale: string;
 }
 
-const i18nNamespaces = ["home", "common"]
+const i18nNamespaces = ["home","about", "portfolio"];
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;
@@ -22,10 +28,14 @@ export default async function Home({ params }: { params: Params }) {
   return (
     <TranslationsProvider locale={locale} resources={resources} namespaces={i18nNamespaces}>
       <Navbar />
+      <HeaderPortfolio />
       <main className="">
-        <h1>{t('common:portfolio')}</h1>
-        
+        <LatestProjectsPortfolio className="mb-20" />
+        <ServicesPortfolio className="mb-20" />
+        <TestimonialsPortfolio className="mb-10" />
       </main>
+      <FooterCTA className="mb-20 " />
+      <Footer />
     </TranslationsProvider>
   );
 }

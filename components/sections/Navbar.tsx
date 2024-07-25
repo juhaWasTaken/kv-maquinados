@@ -50,7 +50,7 @@ export function Navbar() {
                             {menuOpen ? <X className="hover:text-[#ff9302]" /> : <Menu className="hover:text-[#ff9302]" />}
                         </div>
                     </div>
-                    <div className={`flex flex-col md:flex-row p-1 md:px-4 gap-[2px] bg-gray-200 md:bg-transparent md:gap-6 md:items-center ${menuOpen ? 'block' : 'hidden'} md:flex`}>
+                    <div className={`flex flex-col md:flex-row p-1 md:px-4 gap-[2px] bg-gray-200 md:bg-transparent md:gap-6 md:items-center ${menuOpen ? 'block' : 'hidden'} md:flex md:text-center`}>
                         {/* <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Inicio</Link>
                         <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Servicios</Link>
                         <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Contacto</Link>

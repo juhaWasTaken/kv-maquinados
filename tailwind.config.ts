@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'dot-pattern': "url('../assets/images/dotPatter.png')",
+        'dot-pattern': "url('./assets/images/dotPatter.png')",
       },
       boxShadow: {
         'custom': '0px 20px 50px 0px rgba(0, 0, 0, 0.15)',

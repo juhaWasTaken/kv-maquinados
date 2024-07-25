@@ -12,7 +12,7 @@ export function ContactCTA() {
     const {t} = useTranslation();
 
     return (
-        <section className="relative bg-[url('../../assets/images/planos.jpg')] max-w-[1440px] h-[462px] bg-center bg-cover mx-auto p-5 "> {/* mb-20 px-8 md:pt-[112px] pt-[62px] */}
+        <section className="relative bg-planosCTA max-w-[1440px] h-[462px] bg-center bg-cover mx-auto p-5 "> {/* mb-20 px-8 md:pt-[112px] pt-[62px] */}
             <div className="absolute bottom-0 left-0 flex flex-col bg-white p-[28px] lg:p-[42px] max-w-[680px] gap-5 shadow-custom m-5">
                 <h2 className={`text-[#13213C] text-[31px] md:text-[38px] lg:text-[46px] ${rajdhani.className} leading-8 md:leading-[41px] lg:leading-[50px] `}>{t('contactHome.title')}</h2> {/* font-custom-calc leading-[30px] md:leading-[50px] */}
                 <p className="text-[#535353] text-sm md:text-[15px] lg:text-base">{t('contactHome.text')}</p> {/* text-[#535353] font-custom-clamp */}
