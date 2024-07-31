@@ -1,4 +1,10 @@
+import './index.css'
 import { Navbar } from "@/components/sections/Navbar";
+import { ContactHeader } from './components/HeaderPortfolio';
+import { ContactForm } from './components/ContactForm';
+import { ContactInfo } from './components/ContacInfo';
+import { FooterCTA } from '@/components/sections/FooterCTA';
+import { Footer } from '@/components/sections/Footer';
 import initTranslations from "../../i18n";
 import TranslationsProvider from "@/components/TranslationsProvider";
 
@@ -7,7 +13,7 @@ interface Params {
   locale: string;
 }
 
-const i18nNamespaces = ["home", "common"]
+const i18nNamespaces = ["home", "about", "portfolio", "services", "contact"];
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;
@@ -19,10 +25,13 @@ export default async function Home({ params }: { params: Params }) {
   return (
     <TranslationsProvider locale={locale} resources={resources} namespaces={i18nNamespaces}>
       <Navbar />
+      <ContactHeader />
       <main >
-        
-        
+        <ContactForm />  
+        <ContactInfo />
       </main>
+      <FooterCTA className='mb-20' />
+      <Footer />
     </TranslationsProvider>
   );
 }

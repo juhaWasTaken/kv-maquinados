@@ -49,5 +49,36 @@
     "title": "Construyendo tu casa de ensueño con pasión",
     "text": "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. Nuestros productos están diseñados para empresas de pequeño y mediano tamaño dispuestas a optimizar su rendimiento.",
     "btnTxt": "Descubre más"
+  },
+  "testimonials": {
+    "section": "Testimonios",
+    "title": "¿Qué dicen nuestros clientes?",
+    "testimonial": {
+      "t1": {
+        "name": "John Doe",
+        "company": "Gran Empresa",
+        "text": "Hemos estado trabajando con KV Maquinados por más de 5 años y estamos muy satisfechos con la calidad de su trabajo."
+      },
+      "t2": {
+        "name": "Jane Smith",
+        "company": "Corporación ABC",	
+        "text": "KV Maquinados es un socio confiable que ofrece productos de alta calidad a tiempo y dentro del presupuesto. Esperamos trabajar con ellos en futuros proyectos."
+      },
+      "t3": {
+        "name": "Michael Johnson",
+        "company": "XYZ Inc.",
+        "text": "KV Maquinados ha sido un recurso invaluable para nuestra empresa, brindándonos soluciones innovadoras a nuestras necesidades de fabricación. "
+      },
+      "t4": {
+        "name": "Sarah Williams",
+        "company": "123 Industries",
+        "text": "KV Maquinados ha superado nuestras expectativas con su artesanía excepcional y atención al detalle. Recomendamos encarecidamente sus servicios."
+      },
+      "t5": {
+        "name": "David Brown",
+        "company": "456 Enterprises",
+        "text": "KV Maquinados es un socio confiable que ofrece productos de alta calidad a tiempo y dentro del presupuesto. Esperamos trabajar con ellos en futuros proyectos."
+      }
+    }
   }
 }

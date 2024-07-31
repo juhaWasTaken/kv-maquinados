@@ -16,7 +16,7 @@ interface Params {
   locale: string;
 }
 
-const i18nNamespaces = ["home","about", "portfolio"];
+const i18nNamespaces = ["home", "about", "portfolio", "services", "contact"];
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;
@@ -31,8 +31,8 @@ export default async function Home({ params }: { params: Params }) {
       <HeaderPortfolio />
       <main className="">
         <LatestProjectsPortfolio className="mb-20" />
-        <ServicesPortfolio className="mb-20" />
-        <TestimonialsPortfolio className="mb-10" />
+        <ServicesPortfolio className="mb-14" />
+        <TestimonialsPortfolio className="mb-14" />
       </main>
       <FooterCTA className="mb-20 " />
       <Footer />

@@ -1,0 +1,33 @@
+{
+  "title": "Servicios",
+  "sectorHome": {
+    "title": "Sector donde trabajamos",
+    "text": "Trabajamos en una variedad de sectores, incluyendo comercial, residencial, industrial, gobierno, salud y hospitalidad.",
+    "sectors": {
+      "sector-1": {
+        "title": "Comercial",
+        "text": "Ofrecemos una amplia gama de servicios comerciales, incluyendo pintura, remodelación, y más."
+      },
+      "sector-2": {
+        "title": "Residencial",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. "
+      },
+      "sector-3": {
+        "title": "Industrial",
+        "text": "Ofrecemos servicios especializados para instalaciones industriales, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-4": {
+        "title": "Gobierno",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos gubernamentales, incluyendo escuelas, hospitales, y otros edificios públicos."
+      },
+      "sector-5": {
+        "title": "Salud",
+        "text": "Ofrecemos servicios especializados para instalaciones de salud, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-6": {
+        "title": "Hospitalidad",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales."
+      }
+    }
+  }
+}

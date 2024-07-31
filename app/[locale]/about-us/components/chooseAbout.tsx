@@ -40,7 +40,7 @@ export function ChooseAbout({ className = "" }) {
             <div className='flex flex-col lg:flex-row'>
 
                 <div className='relative h-[220px] md:h-[400px] w-full lg:min-h-[480px] lg:w-[40%] order-last lg:order-1'>
-                    <Image src={chooseAbout} alt='choose about' layout='fill' objectFit='cover' className='absolute inset-0' />
+                    <Image src={chooseAbout} alt='choose about' layout='fill' objectFit='cover' className='absolute inset-0 ' />
                     <div className='absolute left-0 bottom-0 bg-white/85 flex flex-col px-5 pt-3 pb-[15px] md:px-6 md:pt-[18px] md:pb-5 w-fit mr-4 md:mr-0 text-center'>
                         <h3 className={`${rajdhani.className} text-[#ff9302] text-[37px] md:text-[47px] lg:text-[58px] tracking-[-2px] text-center`}>100+</h3>
                         <p className='text-[#535353] text-xs md:text-[13px] lg:text-sm uppercase tracking-widest font-semibold'>{t('about:choose.numProjectsTxt')}</p>

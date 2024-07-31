@@ -49,5 +49,36 @@
     "title": "Constructing Your Dream House with Passion",
     "text": "We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems. Our products are designed for small to medium size companies willing to optimize their performance.",
     "btnTxt": "Discover more"
+  },
+  "testimonials": {
+    "section": "Testimonials",
+    "title": "What our clients say?",
+    "testimonial": {
+      "t1": {
+        "name": "John Doe",
+        "company": "Great Company",
+        "text": "We have been working with KV Maquinados for over 5 years and we are very satisfied with the quality of their work."
+      },
+      "t2": {
+        "name": "Jane Smith",
+        "company": "ABC Corporation",
+        "text": "KV Maquinados has exceeded our expectations with their exceptional craftsmanship and attention to detail. We highly recommend their services."
+      },
+      "t3": {
+        "name": "Michael Johnson",
+        "company": "XYZ Inc.",
+        "text": "KV Maquinados is a reliable partner that delivers high-quality products on time and within budget. We look forward to working with them on future projects."
+      },
+      "t4": {
+        "name": "Sarah Williams",
+        "company": "123 Industries",
+        "text": "KV Maquinados has been an invaluable resource for our company, providing us with innovative solutions to our manufacturing needs. We are grateful for their expertise and professionalism."
+      },
+      "t5": {
+        "name": "David Brown",
+        "company": "456 Enterprises",
+        "text": "KV Maquinados has been instrumental in helping us optimize our manufacturing processes. Their innovative solutions have greatly improved our efficiency."
+      }
+    }
   }
 }

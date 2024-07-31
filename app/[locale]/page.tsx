@@ -16,7 +16,7 @@ interface Params {
   locale: string;
 }
 
-const i18nNamespaces = ["home","about", "portfolio"]
+const i18nNamespaces = ["home", "about", "portfolio", "services", "contact"];
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;

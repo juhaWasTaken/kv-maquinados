@@ -3,6 +3,7 @@ import { Rubik } from "next/font/google";
 import type { Metadata } from "next";
 import i18nConfig from "@/i18nConfig";
 import { dir } from 'i18next';
+import { Toaster } from "react-hot-toast";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children, params: { locale } }: RootLayoutP
     <html lang={locale} dir={dir(locale)}>
       <body className={rubik.className}>
         {children}
+        <Toaster position="top-right" reverseOrder={false} />
       </body>
     </html>
   );

@@ -84,9 +84,9 @@ export function LatestProjectsPortfolio({ className = "" }) {
                     <p className="text-[#535353] text-sm md:text-[15px] lg:text-[16px] md:mb-5 lg:mb-10">{t('portfolio:latestProjects.text')}</p>
                     {/* <div className="h-[5px] w-[60px] md:w-[80px] lg:w-[100px] bg-[#ff9302]"></div> */}
 
-                    <div className="flex gap-3">
+                    <div className="flex ">
                         <p className="text-[#13213C] font-semibold tracking-wider text-base  uppercase">{t('portfolio:latestProjects.click')}</p>
-                        <Redo size={40} color="#ff9302" className="rotate-45" />
+                        <Redo size={40} color="#ff9302" className="rotate-[85deg] pt-1" />
                     </div>
                 </div>
             </div>

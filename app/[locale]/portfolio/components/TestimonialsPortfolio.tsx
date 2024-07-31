@@ -1,22 +1,30 @@
+'use client'
+
 import Image from "next/image"
 import { Rajdhani } from "next/font/google"
 import testimonials from '../../../../assets/images/testimonials.png'
 import { CarouselSize } from "../components/Carousel"
+import { useTranslation } from "react-i18next";
+import { usePathname } from "next/navigation";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 {/* text-[#ff9302] */ }
 
 export function TestimonialsPortfolio({ className = "" }) {
+
+    const pathname = usePathname()
+    const {t} = useTranslation();
+
     return (
         <section className={`${className} max-w-[1280px] mx-auto `}>
-            <div className="flex flex-col md:justify-between md:flex-row gap-5 mx-5 border-[15px] border-[#f5f5f5] overflow-hidden lg:max-h-[420px]">
-                <div className="py-6 px-5">
-                    <p className="text-xs md:text-sm lg:text-[15px] uppercase tracking-widest font-medium text-[#13213C]">testimonials</p>
-                    <h2 className={`${rajdhani.className} font-bold text-[#13213C] text-[31px] md:text-[38px] lg:text-[46px] mb-5`}>What our clients say?</h2>
+            <div className="flex flex-col md:justify-between md:flex-row gap-5 mx-5 border-[15px] border-[#f5f5f5] overflow-hidden max-h-fit ">
+                <div className="pt-6 px-5 md:pr-0 md:pl-[30px] lg:pl-8">
+                    <p className="text-xs md:text-sm lg:text-[15px] uppercase tracking-widest font-medium text-[#13213C]">{t('portfolio:testimonials.section')}</p>
+                    <h2 className={`${rajdhani.className} font-bold text-[#13213C] text-[31px] md:text-[38px] lg:text-[46px] mb-5`}>{t('portfolio:testimonials.title')}</h2>
                     <CarouselSize  />
                 </div>
-                <div className="flex justify-center items-center h-[300px] md:h-[350px] lg:h-[470px]">
+                <div className="flex justify-center items-center h-[300px] md:h-[350px] lg:h-[470px] ">
                     <div className="max-w-[700px] h-full">
                         <Image
                             src={testimonials}
