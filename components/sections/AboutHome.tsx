@@ -9,8 +9,6 @@ import { useTranslation } from "react-i18next";
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 export function AboutHome({ className = "" }) {
-
-
     const { t } = useTranslation();
 
     return (
