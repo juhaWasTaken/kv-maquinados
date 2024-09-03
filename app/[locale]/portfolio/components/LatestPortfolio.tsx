@@ -11,12 +11,8 @@ import factory6 from '../../../../assets/images/latestProjects/factory6.jpg'
 import factory7 from '../../../../assets/images/latestProjects/factory7.jpg'
 import factory8 from '../../../../assets/images/latestProjects/factory8.jpg'
 import factory9 from '../../../../assets/images/latestProjects/factory9.jpg'
-import factory10 from '../../../../assets/images/latestProjects/factory10.jpg'
-import factory11 from '../../../../assets/images/latestProjects/factory11.jpg'
-import factory12 from '../../../../assets/images/latestProjects/factory12.jpg'
 import { Redo } from "lucide-react"
 import { useTranslation } from "react-i18next"
-import { usePathname } from "next/navigation"
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
@@ -70,7 +66,6 @@ const projects = [
 
 export function LatestProjectsPortfolio({ className = "" }) {
 
-    const pathname = usePathname()
     const { t } = useTranslation();
 
     return (
@@ -93,7 +88,7 @@ export function LatestProjectsPortfolio({ className = "" }) {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 {projects.map((project, index) => (
                     <div key={index} className="relative group overflow-hidden">
-                        <Image src={project.img} alt={t(project.name)} className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />
+                        <Image src={project.img} alt={t(project.name)} className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-110" loading="eager" priority />
                         <div className="absolute inset-0 bg-[#13213C] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out text-center">
                             <h3 className={`${rajdhani.className} text-white font-bold text-2xl md:text-[30px] lg:text-[35px] mb-2 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500 ease-in-out`}>{t(project.name)}</h3>

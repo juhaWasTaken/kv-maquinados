@@ -3,52 +3,52 @@
     "faq": {
         "title": "Frequently Asked Questions",
         "title-2": "Any questions you want to ask?",
-        "imageText": "Laoreet inceptos purus lorem euismod augue class luctus libero.",
+        "imageText": "Send a message and we will contact you as soon as possible.",
         "btnText": "Contact Us",
         "questions": {
             "q1": {
                 "question": "What is the company's mission?",
-                "answer": "Our mission is to provide the best service to our customers."
+                "answer": "Our mission is to create fast solutions for industrial needs, providing the best quality, responsiveness, cooperation, professional ethics and innovation in the market."
             },
             "q2": {
-                "question": "How long has the company been in business?",
-                "answer": "We have been in business for over 20 years."
+                "question": "What is the company's vision?",
+                "answer": "Our vision is to consolidate as a leading company in industrial maintenance services through trust, innovation and adaptation to achieve total satisfaction of our customers."
             },
             "q3": {
-                "question": "What are the company's values?",
-                "answer": "Our values are honesty, integrity, and respect."
+                "question": "What types of services does KV & Services offer?",
+                "answer": "KV & Services offers a wide range of solutions, including electrical and mechanical installations, preventive maintenance, refrigeration systems, specialized welding, handling of special gases, compressed air systems, machining of parts, fabrication of metal structures and installation of overhead cranes."
             },
             "q4": {
-                "question": "What is the company's vision?",
-                "answer": "Our vision is to be the best company in the industry."
+                "question": "What experience does KV & Services have in the industry?",
+                "answer": "KV & Services is backed by the experience of its founders and a group of engineers with more than 10 years of exposure to the maquiladora industry and construction projects."
             },
             "q5": {
-                "question": "What is the company's goal?",
-                "answer": "Our goal is to provide the best service to our customers."
+                "question": "What is KV & Servicios' approach to cost and efficiency?",
+                "answer": "Our principle and strategy is diversification, which allows us to offer better cost competitiveness due to work volumes, better absorption and utilization of our technical and human resources. This translates into better prices for the services contracted by our clients, always maintaining a focus on efficiency and continuous improvement."
             }
         }
     },
     "choose": {
         "section": "Why Choose Us",
-        "title": "Sure we build impressive",
-        "text": "We are a team of professionals who are dedicated to providing the best service to our customers. We have been in business for over 20 years and have a proven track record of success.",
+        "title": "Safe solutions and constructions",
+        "text": "We are a team of professionals dedicated to provide the best service to our customers. Our experience and versatility make us the ideal choice for your industrial projects.",
         "numProjectsTxt": "Projects done",
         "reasons": {
             "r1": {
-                "title": "Over 32 years of experience",
-                "text": "We have been in business for over 32 years and have a proven track record of success."
+                "title": "More than 10 years of experience",
+                "text": "Our team has more than a decade of exposure to the maquiladora industry and construction projects."
             },
             "r2": {
-                "title": "Professional & Expert",
-                "text": "We are a team of professionals who are dedicated to providing the best service to our customers."
+                "title": "Professional and Expert",
+                "text": "We have a group of highly trained workers and technical personnel specialized in different areas."
             },
             "r3": {
-                "title": "Accurate & Reliable",
-                "text": "We are committed to providing accurate and reliable service to our customers."
+                "title": "Diversification of services",
+                "text": "We offer a wide range of services, from electrical installations to fabrication of metallic structures."
             },
             "r4": {
-                "title": "24/7 Premium Support",
-                "text": "We offer 24/7 premium support to all of our customers."
+                "title": "Integral Support",
+                "text": "We understand the specific needs of the industry and we adapt to keep your operations at an optimal level of productivity."
             }
         }
     }

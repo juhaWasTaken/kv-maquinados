@@ -1,16 +1,16 @@
 'use client'
 
-import { Building, Clock, Phone, Mail, MapPinIcon } from "lucide-react"
+import { Clock, Phone, Mail, MapPinIcon } from "lucide-react"
 import { Rajdhani } from "next/font/google"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { useTranslation } from "react-i18next"
+import Image from "next/image"
+import Isotipo from '@/assets/images/Isotipo.png'
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' })
 
 export function Footer() {
 
-    const pathname = usePathname()
     const { t } = useTranslation()
 
     return (
@@ -19,15 +19,14 @@ export function Footer() {
                 <div className="max-w-[1280px] mx-auto px-5">
                     <div className="flex flex-col lg:flex-row justify-between gap-8">
                         {/* Company Info */}
-                        <div className="flex flex-col gap-5 lg:gap-10 flex-1 items-start">
+                        <div className="flex flex-col gap-5 lg:gap-8 flex-1 items-start">
                             <div className="flex items-center gap-1">
-                                <Link href='/' className="uppercase font-semibold text-lg hover:text-[#FF9302]">
-                                    Placeholder
+                                <Link href='/' className="flex items-center uppercase font-bold text-lg hover:text-[#FF9302] text-wrap">
+                                    <Image src={Isotipo} alt="Logo KV Maquinados" className="w-auto h-auto" width={160} height={160} />
                                 </Link>
-                                <Building />
                             </div>
                             <p className="text-[#535353]">
-                                Nisi conubia taciti eget erat auctor. Ridiculus sodales dui dis arcu dictumst sed magna per.
+                                {t('footer.phrase')}
                             </p>
                         </div>
 
@@ -38,11 +37,11 @@ export function Footer() {
                                 <div className="h-[5px] w-[30px] md:w-[35px] lg:w-[40px] bg-[#ff9302]"></div>
                             </div>
                             <ul className="space-y-2">
-                                <li><Link href="#" className="text-[#535353] hover:text-[#ff9302] transition-colors">About Us</Link></li>
-                                <li><Link href="#" className="text-[#535353] hover:text-[#ff9302] transition-colors">Services</Link></li>
-                                <li><Link href="#" className="text-[#535353] hover:text-[#ff9302] transition-colors">Our Portfolio</Link></li>
-                                <li><Link href="#" className="text-[#535353] hover:text-[#ff9302] transition-colors">Contact Us</Link></li>
-                                <li><Link href="#" className="text-[#535353] hover:text-[#ff9302] transition-colors">FAQ</Link></li>
+                                <li><Link href="/" className="text-[#535353] hover:text-[#ff9302] transition-colors">{t('footer.nav.home')}</Link></li>
+                                <li><Link href="/about-us" className="text-[#535353] hover:text-[#ff9302] transition-colors">{t('footer.nav.about_us')}</Link></li>
+                                <li><Link href="/services" className="text-[#535353] hover:text-[#ff9302] transition-colors">{t('footer.nav.services')}</Link></li>
+                                <li><Link href="/portfolio" className="text-[#535353] hover:text-[#ff9302] transition-colors">{t('footer.nav.portfolio')}</Link></li>
+                                <li><Link href="/contact" className="text-[#535353] hover:text-[#ff9302] transition-colors">{t('footer.nav.contact')}</Link></li>
                             </ul>
                         </div>
 
@@ -55,9 +54,24 @@ export function Footer() {
                                 <div className="h-[5px] w-[30px] md:w-[35px] lg:w-[40px] bg-[#ff9302]"></div>
                             </div>
                             <p className="text-[#535353]">{t('footer.contact.address')}</p>
-                            <p className="text-[#535353] flex items-center mt-2"><span className="material-icons text-[#ff9302] mr-2"><Clock fill="#ff9302" stroke="white" /></span>{t('footer.contact.schedule')}</p>
-                            <p className="text-[#535353] flex items-center mt-2"><span className="material-icons text-[#ff9302] mr-2"><Mail fill="#ff9302" stroke="white" /></span>example@mail.com</p>
-                            <p className="text-[#535353] flex items-center mt-2"><span className="material-icons text-[#ff9302] mr-2"><Phone fill="#ff9302" stroke="white" /></span>+6221 2002 2012</p>
+                            <p className="text-[#535353] flex items-center mt-2">
+                                <span className="material-icons text-[#ff9302] mr-2">
+                                    <Clock fill="#ff9302" stroke="white" />
+                                </span>
+                                {t('footer.contact.schedule')}
+                            </p>
+                            <a href="mailto:proyectos@kvmaquinados.com" className="text-[#535353] flex items-center mt-2 hover:text-[#ff9302] transition-colors">
+                                <span className="material-icons text-[#ff9302] mr-2">
+                                    <Mail fill="#ff9302" stroke="white" />
+                                </span>
+                                proyectos@kvmaquinados.com
+                            </a>
+                            <p className="text-[#535353] flex items-center mt-2">
+                                <span className="material-icons text-[#ff9302] mr-2">
+                                    <Phone fill="#ff9302" stroke="white" />
+                                </span>
+                                +6221 2002 2012
+                            </p>
                         </div>
                     </div>
                 </div>

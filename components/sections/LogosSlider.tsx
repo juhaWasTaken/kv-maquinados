@@ -35,6 +35,7 @@ export function LogoSlider({className=""}) {
                             alt={logo.alt}
                             quality={100}
                             priority
+                            loading="eager"
                         />
                     ))}
                     {logos.map((logo, index) => (
@@ -47,6 +48,7 @@ export function LogoSlider({className=""}) {
                             alt={logo.alt}
                             quality={100}
                             priority
+                            loading="eager"
                         />
                     ))}
                 </div>

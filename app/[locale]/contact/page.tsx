@@ -1,6 +1,6 @@
 import './index.css'
 import { Navbar } from "@/components/sections/Navbar";
-import { ContactHeader } from './components/HeaderPortfolio';
+import { ContactHeader } from './components/HeaderContact';
 import { ContactForm } from './components/ContactForm';
 import { ContactInfo } from './components/ContacInfo';
 import { FooterCTA } from '@/components/sections/FooterCTA';

@@ -106,11 +106,11 @@
   }
 
   .bg-image3Header {
-    background-image: url("../../assets/images/image3.jpg");
+    background-image: url("../../assets/images/image3.webp");
   }
 
   .bg-planosCTA {
-    background-image: url("../../assets/images/planos.jpg");
+    background-image: url("../../assets/images/planos.webp");
   }
 
   .servShadow {
@@ -128,7 +128,7 @@
   /* =========== SERVICES SECTION ============== */
   .parallax-section {
     position: relative;
-    background-image: url("../../assets/images/parallax.jpg");
+    background-image: url("../../assets/images/parallax.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@
   /* ============ FOOTER SECTION =========== */
   .parallax-section2 {
     position: relative;
-    background-image: url("../../assets/images/image2.jpg");
+    background-image: url("../../assets/images/image2.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,13 +203,12 @@
       /* Adjust as needed */
     }
   }
-
 }
 
 @layer utilities {
   .bg-gradient-custom {
     background: linear-gradient(90deg, #f1efed, #eeedeb59),
-      url("../../assets/images/dotPatter.png");
+      url("../../assets/images/dotPatter.webp");
   }
 }
 

@@ -3,7 +3,6 @@
 import { Rajdhani } from "next/font/google";
 import { ChevronsRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { usePathname } from "next/navigation";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
@@ -27,23 +26,20 @@ const sectorsInfo = [
     {
         title: 'sectorHome.sectors.sector-5.title',
         text: 'sectorHome.sectors.sector-5.text',
-    },
-    {
-        title: 'sectorHome.sectors.sector-6.title',
-        text: 'sectorHome.sectors.sector-6.text',
     }
 ]
 
-export function ParallaxSection({className =""}) {
-
-    const pathname = usePathname()
-    const {t} = useTranslation();
+export function ParallaxSection({ className = "" }) {
+    const { t } = useTranslation();
 
     return (
         <section className={`parallax-section ${className}`}>
             <div className="content max-w-[1280px] mx-auto relative pl-5">
                 <div className="content-inner bg-white/86 content-custom max-w-[857px]">
-                    <h2 className={`${rajdhani.className} text-[31px] md:text-[38px] lg:text-[46px] mb-3 text-[#13213C]`}>{t('sectorHome.title')}<span className="text-[#ff9302]">.</span></h2>
+                    <h2 className={`${rajdhani.className} text-[31px] md:text-[38px] lg:text-[46px] mb-3 text-[#13213C]`}>
+                        {t('sectorHome.title')}
+                        <span className="text-[#ff9302]">.</span>
+                    </h2>
                     <p className="text-[14px] md:text-[15px] lg:text-[16px] text-[#535353] mb-5">{t('sectorHome.text')}</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                         {sectorsInfo.map((sector, index) => (
@@ -61,3 +57,4 @@ export function ParallaxSection({className =""}) {
         </section>
     );
 }
+

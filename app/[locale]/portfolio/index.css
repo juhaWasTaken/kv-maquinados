@@ -68,20 +68,5 @@
         @apply bg-background text-foreground;
     }
 
-    .bg-aboutPortfolio {
-        background-image: url('../../../assets/images/aboutHeader.jpg');    
-    }
-
-    .bg-servicesPortfolio {
-        background-image: url('../../../assets/images/workerPortfolio.jpg');    
-    }
-
 }
 
-@layer utilities {
-
-}
-
-@layer components {
-
-}

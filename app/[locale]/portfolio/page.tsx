@@ -20,7 +20,7 @@ const i18nNamespaces = ["home", "about", "portfolio", "services", "contact"];
 
 export default async function Home({ params }: { params: Params }) {
   const { locale } = params;
-  const { t, resources } = await initTranslations({
+  const { resources } = await initTranslations({
     locale,
     namespaces: i18nNamespaces
   });

@@ -3,16 +3,14 @@
 import '../index.css';
 import Image from 'next/image';
 import { Rajdhani } from 'next/font/google';
-import faqIMG from '../../../../assets/images/faqIMG.jpg';
+import faqIMG from '@/assets/images/faqIMG.webp';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 export function FAQAbout({ className = "" }) {
 
-    const pathname = usePathname()
     const { t } = useTranslation();
 
     return (
@@ -71,7 +69,7 @@ export function FAQAbout({ className = "" }) {
                 </div>
 
                 <div className='relative bg-center h-[400px] w-full lg:min-h-[560px] lg:w-[40%]'>
-                    <Image src={faqIMG} layout='fill' objectFit='cover' alt='FAQ' className='absolute' />
+                    <Image src={faqIMG} fill style={{objectFit:'cover'}} alt='FAQ' className='absolute'  />
                     <div className='absolute left-0 bottom-0 bg-white/85 flex flex-col gap-3 p-5 md:p-7 lg:p-9 w-fit mr-4 md:mr-0 lg:w-[70%]'>
                         <h2 className={`${rajdhani.className} text-[#13213C] text-[22px] md:text-[25px] lg:text-[28px]`}>{t('about:faq.title-2')}</h2>
                         <p className='text-[#535353] text-sm md:text-[15px] lg:text-base'>{t('about:faq.imageText')}</p>

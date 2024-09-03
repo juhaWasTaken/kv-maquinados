@@ -1,8 +1,6 @@
 import './index.css'
 import ZoomableImage from "../components/zoomable-image";
 import { Plus, Minus } from "lucide-react";
-import { useParams, usePathname } from "next/navigation";
-import { useEffect } from 'react';
 import { Navbar } from "@/components/sections/Navbar";
 import { ServicesPortfolio } from '../../portfolio/components/ServicesPortfolio';
 import { ChooseAbout } from '../../about-us/components/chooseAbout';
@@ -10,9 +8,7 @@ import { TestimonialsPortfolio } from '../../portfolio/components/TestimonialsPo
 import { FooterCTA } from "@/components/sections/FooterCTA";
 import { Footer } from "@/components/sections/Footer";
 import { Rajdhani } from "next/font/google";
-import { useTranslation } from "react-i18next";
-import Image from "next/image";
-import worker from "../../../../assets/images/worker.jpg";
+import worker from "../../../../assets/images/worker.webp";
 import Link from 'next/link';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/components/TranslationsProvider';

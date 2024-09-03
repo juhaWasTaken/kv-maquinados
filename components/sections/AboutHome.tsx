@@ -2,17 +2,16 @@
 
 import Image from "next/image"
 import { Rajdhani } from "next/font/google";
-import worker from "../../assets/images/worker.jpg"
+import worker from "@/assets/images/worker.webp"
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
-export function AboutHome({className=""}) {
+export function AboutHome({ className = "" }) {
 
-    const pathname = usePathname()
-    const {t} = useTranslation();
+
+    const { t } = useTranslation();
 
     return (
         <section className={`max-w-[1280px] mx-auto relative ${className}`}>
@@ -30,10 +29,17 @@ export function AboutHome({className=""}) {
                                 <br />
                                 <p className="text-[#535353] text-[14px] md:text-[16px]">{t('aboutHome.text-2')}</p>
                             </div>
-                            <Link href="#" className={`bg-[#ff9302] text-lg text-white py-3 px-6 hover:bg-[#13213C] hover:text-[#ff9302] w-fit transition-colors duration-300 ${rajdhani.className}`}>{t('aboutHome.btn-txt')}</Link>
+                            <Link href="/about-us" className={`bg-[#ff9302] text-lg text-white py-3 px-6 hover:bg-[#13213C] hover:text-[#ff9302] w-fit transition-colors duration-300 ${rajdhani.className}`}>{t('aboutHome.btn-txt')}</Link>
                         </div>
                         <div className="flex-grow lg:max-w-[405px]">
-                            <Image src={worker} alt="Worker" className="w-full min-h-full max-h-[220px] md:max-h-none lg:max-w-[385px] lg:max-h-[385px] object-cover" priority />
+                            <Image
+                                src={worker}
+                                alt="Worker"
+                                style={{ objectFit: "cover" }}
+                                className="w-full min-h-full max-h-[220px] md:max-h-none lg:max-w-[385px] lg:max-h-[385px] object-cover"
+                                priority
+                                loading="eager"
+                            />
                         </div>
                     </div>
                 </div>

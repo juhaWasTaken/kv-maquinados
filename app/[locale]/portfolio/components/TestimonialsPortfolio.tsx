@@ -5,15 +5,11 @@ import { Rajdhani } from "next/font/google"
 import testimonials from '../../../../assets/images/testimonials.png'
 import { CarouselSize } from "../components/Carousel"
 import { useTranslation } from "react-i18next";
-import { usePathname } from "next/navigation";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
-{/* text-[#ff9302] */ }
-
 export function TestimonialsPortfolio({ className = "" }) {
 
-    const pathname = usePathname()
     const {t} = useTranslation();
 
     return (
@@ -32,6 +28,8 @@ export function TestimonialsPortfolio({ className = "" }) {
                             className="w-auto h-full object-contain"
                             width={700}  // Set this to the original width of your image
                             height={470} // Set this to the original height of your image
+                            priority
+                            style={{objectFit:"cover"}}
                         />
                     </div>
                 </div>

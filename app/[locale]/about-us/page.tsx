@@ -36,7 +36,6 @@ export default async function Home({ params }: { params: Params }) {
         <FAQAbout className='px-5 mb-24' />
         <ChooseAbout className='px-5 '/>
       </main>
-
       <FooterCTA className='mb-20 mt-20'/>
       <Footer />
 

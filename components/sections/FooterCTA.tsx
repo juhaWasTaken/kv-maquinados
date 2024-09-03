@@ -2,14 +2,13 @@
 
 import { Rajdhani } from "next/font/google"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { useTranslation } from "react-i18next"
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' })
 
 export function FooterCTA({className = ""}) {
 
-    const pathname = usePathname()
+
     const { t } = useTranslation()
 
     return (
@@ -20,11 +19,11 @@ export function FooterCTA({className = ""}) {
                     <span className="text-[#ff9302]">.</span>
                 </h2>
                 <div className="flex flex-col w-full text-center md:w-fit lg:flex-row gap-3 px-3">
-                    <Link href="#"
+                    <Link href="/contact"
                         className={`bg-[#ff9302] text-lg text-white py-2 px-6 flex items-center justify-center hover:bg-[#13213C] hover:text-[#ff9302] transition-colors duration-300 ${rajdhani.className}`}>
                         {t('header.button-1')}
                     </Link>
-                    <Link href="#"
+                    <Link href="/portfolio"
                         className={`bg-transparent border-[2px] text-lg border-[#ff9302] text-white py-2 px-6 flex items-center justify-center hover:bg-white hover:border-white hover:text-[#ff9302] transition-colors duration-300 ${rajdhani.className}`}>
                         {t('header.button-2')}
                     </Link>

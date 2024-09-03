@@ -9,7 +9,6 @@ import tool from "../../assets/icons/tool.svg";
 import paint from "../../assets/icons/paint.svg";
 import barrierBlock from "../../assets/icons/barrier-block.svg";
 import { useTranslation } from "react-i18next";
-import { usePathname } from "next/navigation";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
@@ -54,7 +53,6 @@ const servicesInfo = [
 
 export function ServicesHome() {
 
-    const pathname = usePathname()
     const { t } = useTranslation();
 
 
@@ -68,7 +66,7 @@ export function ServicesHome() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 {servicesInfo.map((service, index) => (
                     <div key={index} className="grid grid-rows-[auto,auto,1fr,auto] px-[20px] md:px-[30px] pb-[30px] bg-white servShadow hover:border-b-[2px] hover:border-[#ff9302]">
-                        <Image src={service.icon} alt={service.title} className="bg-[#ff9302] p-3" width={64} height={64} loading="lazy" />
+                        <Image src={service.icon} alt={service.title} className="bg-[#ff9302] p-3" width={64} height={64} loading="eager" priority />
                         <h3 className={`${rajdhani.className} text-[#13213C] text-[22px] md:text-[25px] lg:text-[28px] font-medium mt-5`}>{t(service.title)}</h3>
                         <p className="text-[14px] md:text-[15px] lg:text-[16px] text-[#535353] mt-5">{t(service.text)}</p>
                         <button className={`text-lg text-[#ff9302] border-b border-[#ff9302] mb-[1px] hover:border-[#13213C] hover:text-[#13213C] w-fit transition-colors duration-300 mt-5 ${rajdhani.className}`}>{t(service.infoCTA)}</button>

@@ -67,16 +67,9 @@
     body {
         @apply bg-background text-foreground;
     }
-    .bg-aboutHeader {
-        background-image: url('../../../assets/images/aboutHeader.jpg');    
-    }
 
     .bg-faqIMG {
         background-image: url('../../../assets/images/faqIMG.jpg');    
-    }
-
-    .bg-chooseAbout {
-        background-image: url('../../../assets/images/chooseAbout.jpg');    
     }
 
     summary.hand {

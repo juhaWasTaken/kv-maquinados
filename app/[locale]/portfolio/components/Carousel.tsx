@@ -62,7 +62,7 @@ export function CarouselSize() {
                         <div className="p-0 lg:p-4">
                             <Card className="h-full border-none shadow-none">
                                 <CardContent className="flex flex-col justify-between p-0 h-full">
-                                    <p className="text-sm md:text-[15px] lg:text-[18px] text-[#3a3a3a] mb-4 italic">"{t(testimonial.testimonial)}"</p>
+                                    <p className="text-sm md:text-[15px] lg:text-[18px] text-[#3a3a3a] mb-4 italic">{`"${t(testimonial.testimonial)}"`}</p>
                                     <div className="flex flex-col flex-grow">
                                         <p className={`${rajdhani.className} text-[17px] md:text-lg lg:text-[19px] font-bold`}>{t(testimonial.name)}</p>
                                         <p className="text-sm md:text-[15px] lg:text-base text-[#ff9302]">{t(testimonial.company)}</p>

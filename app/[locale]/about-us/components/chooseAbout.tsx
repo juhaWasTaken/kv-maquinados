@@ -3,10 +3,9 @@
 import '../index.css';
 import { Rajdhani } from 'next/font/google';
 import { ChevronsRight } from 'lucide-react';
-import chooseAbout from '../../../../assets/images/chooseAbout.jpg'
+import chooseAbout from '@/assets/images/chooseAbout.webp'
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
-import { usePathname } from 'next/navigation';
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
@@ -31,25 +30,23 @@ const reasons = [
 
 export function ChooseAbout({ className = "" }) {
 
-    const pathname = usePathname()
     const {t} = useTranslation();
 
     return (
         <section className={`${className} max-w-[1280px] mx-auto`}>
 
             <div className='flex flex-col lg:flex-row'>
-
                 <div className='relative h-[220px] md:h-[400px] w-full lg:min-h-[480px] lg:w-[40%] order-last lg:order-1'>
-                    <Image src={chooseAbout} alt='choose about' layout='fill' objectFit='cover' className='absolute inset-0 ' />
+                    <Image src={chooseAbout} alt='Choose About Image' fill style={{objectFit:'cover'}} className='absolute inset-0' sizes="(max-width: 1024px) 100vw, 40vw" />
                     <div className='absolute left-0 bottom-0 bg-white/85 flex flex-col px-5 pt-3 pb-[15px] md:px-6 md:pt-[18px] md:pb-5 w-fit mr-4 md:mr-0 text-center'>
-                        <h3 className={`${rajdhani.className} text-[#ff9302] text-[37px] md:text-[47px] lg:text-[58px] tracking-[-2px] text-center`}>100+</h3>
+                        <h3 className={`${rajdhani.className} text-[#ff9302] text-[37px] md:text-[47px] lg:text-[58px] tracking-[-2px] text-center`}>25+</h3>
                         <p className='text-[#535353] text-xs md:text-[13px] lg:text-sm uppercase tracking-widest font-semibold'>{t('about:choose.numProjectsTxt')}</p>
                     </div>
                 </div>
 
                 <div className='mb-8 lg:w-[60%] lg:ml-[48px] lg:order-2'>
                     <p className='text-[#13213C] uppercase tracking-widest text-xs md:text-sm lg:text-base font-semibold mb-5'>{t('about:choose.section')}</p>
-                    <h2 className={`${rajdhani.className} text-[#13213C] text-[31px] md:text-[38px] lg:text-[46px] mb-5`}>{t('about:choose.title')}</h2>
+                    <h2 className={`${rajdhani.className} text-[#13213C] text-[31px] md:text-[38px] lg:text-[46px] mb-5 leading-tight `}>{t('about:choose.title')}</h2>
                     <p className='text-[#535353] text-sm md:text-[15px] lg:text-base'>{t('about:choose.text')}</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">

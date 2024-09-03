@@ -67,21 +67,9 @@
     body {
         @apply bg-background text-foreground;
     }
-
-    .bg-aboutServices {
-        background-image: url('../../../assets/images/servicesHeader.jpg');    
-    }
     
     .servShadow {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
-
-}
-
-@layer utilities {
-
-}
-
-@layer components {
 
 }

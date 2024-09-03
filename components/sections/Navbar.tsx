@@ -1,8 +1,10 @@
 'use client'
 
+import Image from "next/image"
+import Isotipo from '@/assets/images/Isotipo.png'
 import Link from "next/link"
 import React, { useState } from "react"
-import { Clock, MapPinIcon, Building, Menu, X } from "lucide-react"
+import { Clock, MapPinIcon, Menu, X } from "lucide-react"
 import { usePathname } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import LanguageChanger from "../LanguajeChanger"
@@ -25,7 +27,7 @@ export function Navbar() {
 
     return (
         <>
-            <section className="bg-[#13213C] ">
+            <section className="bg-[#13213C]  z-50 relative">
                 <div className="flex flex-col gap-1 md:flex-row items-center justify-between max-w-[1280px] mx-auto py-2 px-4">
                     <p className="flex items-center text-xs md:text-sm text-center text-balance text-white gap-2 font-normal">
                         <Clock className="w-4 h-4 text-orange-400" />
@@ -37,20 +39,19 @@ export function Navbar() {
                     </p>
                 </div>
             </section>
-            <section className="border-b border-gray-800 w-full">
+            <section className="border-b border-gray-800 w-full z-50 relative ">
                 <nav className="flex flex-col md:flex-row mx-auto justify-between max-w-[1280px]">
-                    <div className="flex justify-between border-b border-gray-500 md:border-none py-4 px-4">
+                    <div className="flex items-center justify-between gap-2 border-b border-gray-500 md:border-none py-3 px-4">
                         <div className="flex items-center gap-1">
-                            <Link href='/' className="uppercase font-semibold text-lg hover:text-[#FF9302]">
-                                Placeholder
+                            <Link href='/' className="flex items-center uppercase font-bold text-lg hover:text-[#FF9302] text-wrap">
+                                <Image src={Isotipo} alt="Logo KV Maquinados" className="w-auto h-auto" width={160} height={160} />
                             </Link>
-                            <Building />
                         </div>
-                        <div className="md:hidden cursor-pointer bg-gray-200 p-[2px] rounded-sm" onClick={toggleMenu}>
+                        <div className="md:hidden cursor-pointer bg-gray-200 p-[2px] rounded-sm h-fit" onClick={toggleMenu}>
                             {menuOpen ? <X className="hover:text-[#ff9302]" /> : <Menu className="hover:text-[#ff9302]" />}
                         </div>
                     </div>
-                    <div className={`flex flex-col md:flex-row p-1 md:px-4 gap-[2px] bg-gray-200 md:bg-transparent md:gap-6 md:items-center ${menuOpen ? 'block' : 'hidden'} md:flex md:text-center`}>
+                    <div className={`flex flex-col md:flex-row p-1 md:px-4 gap-[2px] bg-gray-200 md:bg-transparent md:gap-4 lg:gap-5 md:items-center ${menuOpen ? 'block' : 'hidden'} md:flex md:text-center`}>
                         {/* <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Inicio</Link>
                         <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Servicios</Link>
                         <Link className="uppercase px-3 py-3 bg-white hover:bg-[#FF9302] hover:text-white md:hover:bg-transparent md:hover:text-[#ff9302] md:p-0 font-semibold text-sm" href="/">Contacto</Link>

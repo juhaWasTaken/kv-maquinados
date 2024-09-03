@@ -67,11 +67,6 @@
     body {
         @apply bg-background text-foreground;
     }
-
-    .bg-contactHeader {
-        background-image: url('../../../assets/images/contacHeader.jpg');
-    }
-
     textarea {
         resize: none;
     }
