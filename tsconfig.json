@@ -18,7 +18,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
@@ -26,10 +26,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "middleware.tsx",
-    "i18nConfig.tsx",
-    "app/i18n.tsx",
-    "app/[locale]/services/[service]/page.tsx"
   ],
   "exclude": ["node_modules"]
 }
