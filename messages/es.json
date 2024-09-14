@@ -1,0 +1,319 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Español} en {Inglés} other {Unknown}}"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "about_us": "Sobre Nosotros",
+    "portfolio": "Portafolio",
+    "schedule": "Lunes - Sábado 8:00 - 17:00",
+    "location": "Reynosa, Tamaulipas, México"
+  },
+  "header": {
+    "title-pt1": "Construyendo sueños",
+    "title-pt2": "a través de la construcción",
+    "slogan": "La excelencia es nuestro estándar",
+    "text": "En KV Servicios y Maquinado, hacemos su visión realidad. Desde la fase inicial de diseño hasta los toques finales",
+    "button-1": "Contáctanos",
+    "button-2": "Ver Portafolio"
+  },
+  "aboutHome": {
+    "section": "Sobre Nosotros",
+    "title": "Mejorando las instalaciones para su satisfacción",
+    "phrase": "Con más de 10 años de experiencia en el sector industrial, Nos comprometemos a ofrecer resultados excepcionales que superen las expectativas de nuestros clientes.",
+    "text-1": "En KV & Servicios creemos en la diversificación como principio y estrategia fundamental. Esto nos permite ofrecer costes más competitivos, un mejor aprovechamiento de los recursos y, en definitiva, mejores precios para los servicios contratados por nuestros clientes. Nuestro equipo de trabajadores y técnicos experimentados se dedica a proporcionar soluciones rápidas a las necesidades industriales con gran tecnología de mercado.",
+    "text-2": "Estamos orgullosos de nuestra calidad, capacidad de respuesta, cooperación, ética profesional e innovación.",
+    "btn-txt": "Sobre Nosotros"
+  },
+  "contactHome": {
+    "title": "Trabajemos juntos para crear soluciones sostenibles e innovadoras en sus proyectos.",
+    "text": "Estamos aquí para ayudarle con las necesidades de sus proyectos. No dude en ponerse en contacto con nosotros para obtener más información o para programar una consulta.",
+    "btn-txt": "Contáctanos"
+  },
+  "servicesHome": {
+    "section": "Nuestros Servicios",
+    "title": "Escuchar Mejor. Planificar Mejor. Construir Mejor",
+    "services": {
+      "service-1": {
+        "title": "Construcción General",
+        "text": "Ofrecemos una amplia gama de servicios de construcción general para proyectos residenciales y comerciales. Nuestro equipo de expertos lo ayudará a dar vida a su visión."
+      },
+      "service-2": {
+        "title": "Diseño y Construcción",
+        "text": "Ofrecemos una amplia gama de servicios de construcción general para proyectos residenciales y comerciales. Nuestro equipo de expertos lo ayudará a dar vida a su visión."
+      },
+      "service-3": {
+        "title": "Renovación y Remodelación",
+        "text": "Ya sea que necesite una renovación completa o solo algunas actualizaciones, podemos ayudarlo. Nuestro equipo tiene las habilidades y la experiencia para transformar."
+      },
+      "service-4": {
+        "title": "Gestión de Proyectos",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. Trabajaremos con usted en cada paso del camino."
+      },
+      "service-5": {
+        "title": "Consultoría",
+        "text": "Nuestros servicios de consultoría son perfectos para aquellos que necesitan asesoramiento experto en su proyecto de construcción. "
+      },
+      "service-6": {
+        "title": "Mantenimiento",
+        "text": "Ofrecemos una variedad de servicios de mantenimiento para mantener su propiedad en óptimas condiciones. Desde reparaciones hasta inspecciones, lo tenemos cubierto."
+      }
+    },
+    "btn-txt": "Saber Más"
+  },
+  "sectorHome": {
+    "title": "Sector donde trabajamos",
+    "text": "Trabajamos en una variedad de sectores, incluyendo comercial, residencial, industrial, gobierno y hospitalidad.",
+    "sectors": {
+      "sector-1": {
+        "title": "Industrial",
+        "text": "Ofrecemos servicios especializados para instalaciones industriales, incluyendo mantenimiento preventivo y correctivo de equipos, instalaciones eléctricas y mecánicas, sistemas de refrigeración, soldadura especializada, y más."
+      },
+      "sector-2": {
+        "title": "Comercial",
+        "text": "Proveemos una amplia gama de servicios comerciales, incluyendo instalación y mantenimiento de sistemas HVAC, reparaciones estructurales, y soluciones de eficiencia energética."
+      },
+      "sector-3": {
+        "title": "Residencial",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudar en remodelaciones y mejoras del hogar, incluyendo instalaciones eléctricas y de plomería."
+      },
+      "sector-4": {
+        "title": "Gobierno",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos gubernamentales, incluyendo mantenimiento de edificios públicos y mejoras en infraestructura."
+      },
+      "sector-5": {
+        "title": "Hospitalidad",
+        "text": "Tenemos experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales, ofreciendo soluciones de mantenimiento integral."
+      }
+    }
+  },
+  "latestProjects": {
+    "section": "Nuestros Últimos Proyectos",
+    "title": "La construcción en su máxima expresión",
+    "text": "En KV & Servicios proponemos soluciones de alta calidad para todos los proyectos de nuestros clientes. Nuestra década de experiencia y todos los proyectos que hemos realizado nos respaldan como una gran opción para sus proyectos.",
+    "text-2": "Estos son algunos de nuestros últimos proyectos. Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. ",
+    "click": "Click!",
+    "projects": {
+      "project-1": {
+        "name": "Gran Fábrica",
+        "type": "Industrial"
+      },
+      "project-2": {
+        "name": "Super Fábrica",
+        "type": "Comercial"
+      },
+      "project-3": {
+        "name": "Casa de Lujo",
+        "type": "Industrial"
+      },
+      "project-4": {
+        "name": "Fábrica Genial",
+        "type": "Salud"
+      },
+      "project-5": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Residencial"
+      },
+      "project-6": {
+        "name": "Proyecto de Hospitalidad",
+        "type": "Industrial"
+      },
+      "project-7": {
+        "name": "Fábrica Asombrosa",
+        "type": "Industrial"
+      },
+      "project-8": {
+        "name": "Fábrica Increíble",
+        "type": "Comercial"
+      },
+      "project-9": {
+        "name": "Fábrica Fantástica",
+        "type": "Industrial"
+      }
+    }
+  },
+  "footerCTA": {
+    "text": "Hagamos realidad su proyecto hoy",
+    "button-1": "Contáctanos",
+    "button-2": "Ver Portafolio"
+  },
+  "footer": {
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "contact": "Contacto",
+      "about_us": "Sobre Nosotros",
+      "portfolio": "Portafolio"
+    },
+    "phrase": "En KV & Servicios nos comprometemos con brindar la mejor calidad y experiencia a nuestros clientes. Somos una opción segura y confiable.",
+    "linksTitle": "Links Útiles",
+    "contactTitle": "Información de Contacto",
+    "contact": {
+      "address": "Cerro de la bufa, Col. Aztlán, Reynosa, Tamps. ",
+      "schedule": "Lun - Sab : 08:00 - 17:00",
+      "location": "Reynosa, Tamaulipas, México"
+    }
+  },
+  "aboutHeader": {
+    "titleAbout": "Sobre Nuestra Empresa",
+    "home": "Inicio",
+    "about": "Sobre Nosotros"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "title-2": "¿Alguna pregunta que quieras hacer?",
+    "imageText": "Manda un mensaje y nos pondremos en contacto contigo lo antes posible.",
+    "btnText": "Contáctanos",
+    "questions": {
+      "q1": {
+        "question": "¿Cuál es la misión de la empresa?",
+        "answer": "Nuestra misión es crear soluciones rápidas para las necesidades industriales, brindando la mejor calidad, respuesta, cooperación, ética profesional e innovación del mercado."
+      },
+      "q2": {
+        "question": "¿Cuánto es la visión de la empresa?",
+        "answer": "Nuestra visión es consolidarnos como una empresa líder en servicios de mantenimiento industrial a través de la confianza, innovación y adaptación para lograr la total satisfacción de nuestros clientes."
+      },
+      "q3": {
+        "question": "¿Qué tipos de servicios ofrece KV & Servicios?",
+        "answer": "KV & Servicios ofrece una amplia gama de soluciones, incluyendo instalaciones eléctricas y mecánicas, mantenimiento preventivo, sistemas de refrigeración, soldadura especializada, manejo de gases especiales, sistemas de aire comprimido, maquinado de piezas, fabricación de estructuras metálicas e instalación de grúas viajeras."
+      },
+      "q4": {
+        "question": "¿Qué experiencia tiene KV & Servicios en la industria?",
+        "answer": "KV & Servicios está respaldada por la experiencia de sus fundadores y un grupo de ingenieros con más de 10 años de exposición a la industria maquiladora y proyectos de construcción."
+      },
+      "q5": {
+        "question": "¿Cuál es el enfoque de KV & Servicios en cuanto a costos y eficiencia?",
+        "answer": "Nuestro principio y estrategia es la diversificación, lo que nos permite ofrecer una mejor competencia de costos debido a los volúmenes de trabajo, una mejor absorción y utilización de nuestros recursos técnicos y humanos. Esto se traduce en mejores precios para los servicios contratados por nuestros clientes, manteniendo siempre un enfoque en la eficiencia y la mejora continua."
+      }
+    }
+  },
+  "choose": {
+    "section": "¿Por qué elegirnos? ",
+    "title": "Soluciones y construcciones seguras",
+    "text": "Somos un equipo de profesionales dedicados a brindar el mejor servicio a nuestros clientes. Nuestra experiencia y versatilidad nos convierten en la opción ideal para sus proyectos industriales.",
+    "numProjectsTxt": "Proyectos realizados",
+    "reasons": {
+      "r1": {
+        "title": "Más de 10 años de experiencia",
+        "text": "Nuestro equipo cuenta con más de una década de exposición a la industria maquiladora y proyectos de construcción."
+      },
+      "r2": {
+        "title": "Profesional y Experto",
+        "text": "Contamos con un grupo de trabajadores altamente capacitados y personal técnico especializado en diversas áreas."
+      },
+      "r3": {
+        "title": "Diversificación de servicios",
+        "text": "Ofrecemos una amplia gama de servicios, desde instalaciones eléctricas hasta fabricación de estructuras metálicas."
+      },
+      "r4": {
+        "title": "Soporte Premium 24/7",
+        "text": "Entendemos las necesidades específicas de la industria y nos adaptamos para mantener sus operaciones en un óptimo nivel de productividad."
+      }
+    }
+  },
+  "headerContact": {
+    "pageContact": "Contáctanos",
+    "home": "Inicio",
+    "contact": "Contacto"
+  },
+  "formContact": {
+    "title": "Ponte en contacto con nosotros",
+    "description": "Estamos aquí para ayudarte. Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando..."
+    },
+    "errors": {
+      "name": "El nombre debe tener al menos 2 caracteres",
+      "email": "Dirección de correo electrónico inválida",
+      "subject": "El asunto debe tener al menos 5 caracteres",
+      "phone": "El teléfono debe tener al menos 10 caracteres",
+      "message": "El mensaje debe tener al menos 10 caracteres"
+    },
+    "contactInfo": {
+      "address": "Dirección",
+      "phone": "Nuestro Teléfono",
+      "email": "Dirección de Correo"
+    }
+  },
+  "ideas": {
+    "section": "Tus ideas a la realidad",
+    "title": "Construyendo tu casa de ensueño con pasión",
+    "text": "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. Nuestros productos están diseñados para empresas de pequeño y mediano tamaño dispuestas a optimizar su rendimiento.",
+    "btnTxt": "Descubre más"
+  },
+  "testimonials": {
+    "section": "Testimonios",
+    "title": "¿Qué dicen nuestros clientes?",
+    "testimonial": {
+      "t1": {
+        "name": "John Doe",
+        "company": "Gran Empresa",
+        "text": "Hemos estado trabajando con KV Maquinados por más de 5 años y estamos muy satisfechos con la calidad de su trabajo."
+      },
+      "t2": {
+        "name": "Jane Smith",
+        "company": "Corporación ABC",
+        "text": "KV Maquinados es un socio confiable que ofrece productos de alta calidad a tiempo y dentro del presupuesto. Esperamos trabajar con ellos en futuros proyectos."
+      },
+      "t3": {
+        "name": "Michael Johnson",
+        "company": "XYZ Inc.",
+        "text": "KV Maquinados ha sido un recurso invaluable para nuestra empresa, brindándonos soluciones innovadoras a nuestras necesidades de fabricación. "
+      },
+      "t4": {
+        "name": "Sarah Williams",
+        "company": "123 Industries",
+        "text": "KV Maquinados ha superado nuestras expectativas con su artesanía excepcional y atención al detalle. Recomendamos encarecidamente sus servicios."
+      },
+      "t5": {
+        "name": "David Brown",
+        "company": "456 Enterprises",
+        "text": "KV Maquinados es un socio confiable que ofrece productos de alta calidad a tiempo y dentro del presupuesto. Esperamos trabajar con ellos en futuros proyectos."
+      }
+    }
+  },
+  "headerServices": {
+    "titleServices": "Servicios",
+    "home": "Inicio",
+    "services": "Servicios"
+  },
+  "sectorHome-2": {
+    "title": "Sector donde trabajamos",
+    "text": "Trabajamos en una variedad de sectores, incluyendo comercial, residencial, industrial, gobierno, salud y hospitalidad.",
+    "sectors": {
+      "sector-1": {
+        "title": "Comercial",
+        "text": "Ofrecemos una amplia gama de servicios comerciales, incluyendo pintura, remodelación, y más."
+      },
+      "sector-2": {
+        "title": "Residencial",
+        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. "
+      },
+      "sector-3": {
+        "title": "Industrial",
+        "text": "Ofrecemos servicios especializados para instalaciones industriales, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-4": {
+        "title": "Gobierno",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos gubernamentales, incluyendo escuelas, hospitales, y otros edificios públicos."
+      },
+      "sector-5": {
+        "title": "Salud",
+        "text": "Ofrecemos servicios especializados para instalaciones de salud, incluyendo control de infecciones, eliminación de plomo, y más."
+      },
+      "sector-6": {
+        "title": "Hospitalidad",
+        "text": "Nuestro equipo tiene experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales."
+      }
+    }
+  }
+}
