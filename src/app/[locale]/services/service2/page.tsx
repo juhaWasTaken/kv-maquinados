@@ -24,12 +24,12 @@ export default function Service2() {
       <section className="relative h-[620px] md:h-[552px]">
         {/* Background Image */}
         <Image
-          src={image3} 
+          src={image3}
           alt="Header Background"
           layout="fill"
           objectFit="cover"
           loading="eager"
-          className="z-0" 
+          className="z-0"
           priority
         />
 
@@ -154,7 +154,7 @@ export default function Service2() {
                   Contact Us
                 </h2>
                 <p className="text-sm md:text-[0.938rem] lg:text-base text-white mb-3">
-                  Let's start working together and start creating all your works reality.
+                  Let&apos;s start working together and start creating all your works reality.
                 </p>
                 <Link
                   className={`${rajdhani.className} text-base md:text-lg lg:text-[1.188rem] bg-[#ff9302] px-6 py-3 text-center text-white hover:bg-[#13213C] hover:text-[#ff9302] transition-all`}
