@@ -248,7 +248,8 @@
     "section": "Tus ideas a la realidad",
     "title": "Construyendo tu casa de ensueño con pasión",
     "text": "Somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos disruptivos. Construimos grandes productos para resolver los problemas de tu negocio. Nuestros productos están diseñados para empresas de pequeño y mediano tamaño dispuestas a optimizar su rendimiento.",
-    "btnTxt": "Descubre más"
+    "btnTxt": "Descubre más",
+    "altText": "Imagen de un trabajador soldando una estructura metálica"
   },
   "testimonials": {
     "section": "Testimonios",
@@ -313,6 +314,42 @@
       "sector-6": {
         "title": "Hospitalidad",
         "text": "Nuestro equipo tiene experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales."
+      }
+    }
+  },
+  "services": {
+    "slogan": "La excelencia es nuestro estándar",
+    "text": "En KV Servicios y Maquinado, hacemos su visión realidad. Desde la fase inicial de diseño hasta los toques finales",
+    "service-1": {
+      "title": "Construcción General",
+      "text-1": "Los servicios industriales ayudan a las empresas a optimizar sus operaciones mediante la identificación de ineficiencias y la implementación de soluciones. Esto puede conducir a menores costos operativos, mayor productividad y una ventaja competitiva más sólida. Muchos servicios industriales brindan acceso a conocimientos y habilidades especializados que podrían no estar disponibles internamente. Esta experiencia puede conducir a una mejor toma de decisiones y soluciones innovadoras que impulsen el crecimiento.",
+      "text-2": "En una era en la que el crecimiento industrial es primordial, la eficiencia y la eficacia de los servicios industriales desempeñan un papel fundamental para impulsar el éxito en diversos sectores. Desde la fabricación y la construcción hasta la logística y el mantenimiento, los servicios industriales abarcan una amplia gama.",
+      "includes": {
+        "title": "Nuestros servicios de Construcción General incluyen:",
+        "item-1": "Instalaciones eléctricas y mecánicas",
+        "item-2": "Mantenimiento preventivo",
+        "item-3": "Sistemas de refrigeración",
+        "item-4": "Soldadura especializada",
+        "item-5": "Manejo de gases especiales",
+        "item-6": "Sistemas de aire comprimido",
+        "item-7": "Maquinado de piezas",
+        "item-8": "Fabricación de estructuras metálicas"
+      }
+    },
+    "service-2": {
+      "title": "Diseño y Construcción",
+      "text-1": "Los servicios industriales ayudan a las empresas a optimizar sus operaciones mediante la identificación de ineficiencias y la implementación de soluciones. Esto puede conducir a menores costos operativos, mayor productividad y una ventaja competitiva más sólida. Muchos servicios industriales brindan acceso a conocimientos y habilidades especializados que podrían no estar disponibles internamente. Esta experiencia puede conducir a una mejor toma de decisiones y soluciones innovadoras que impulsen el crecimiento.",
+      "text-2": "En una era en la que el crecimiento industrial es primordial, la eficiencia y la eficacia de los servicios industriales desempeñan un papel fundamental para impulsar el éxito en diversos sectores. Desde la fabricación y la construcción hasta la logística y el mantenimiento, los servicios industriales abarcan una amplia gama.",
+      "includes": {
+        "title": "Nuestros servicios de Construcción General incluyen:",
+        "item-1": "Instalaciones eléctricas y mecánicas",
+        "item-2": "Mantenimiento preventivo",
+        "item-3": "Sistemas de refrigeración",
+        "item-4": "Soldadura especializada",
+        "item-5": "Manejo de gases especiales",
+        "item-6": "Sistemas de aire comprimido",
+        "item-7": "Maquinado de piezas",
+        "item-8": "Fabricación de estructuras metálicas"
       }
     }
   }

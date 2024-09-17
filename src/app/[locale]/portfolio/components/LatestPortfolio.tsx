@@ -63,11 +63,7 @@ const projects = [
 ]
 
 export function LatestProjectsPortfolio({ className = "" }) {
-
     const t = useTranslations('latestProjects')
-
-
-
     return (
         <section className={`${className} max-w-[1280px] mx-auto px-5`}>
             <div className="flex flex-col mb-10 lg:flex-row lg:items-center lg:justify-between gap-5 lg:gap-10">
