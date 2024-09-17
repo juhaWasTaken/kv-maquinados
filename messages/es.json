@@ -338,7 +338,19 @@
     },
     "service-2": {
       "title": "Diseño y Construcción",
-      "text": "Ofrecemos una amplia gama de servicios de construcción general para proyectos residenciales y comerciales. Nuestro equipo de expertos lo ayudará a dar vida a su visión."
+      "text-1": "Los servicios industriales ayudan a las empresas a optimizar sus operaciones mediante la identificación de ineficiencias y la implementación de soluciones. Esto puede conducir a menores costos operativos, mayor productividad y una ventaja competitiva más sólida. Muchos servicios industriales brindan acceso a conocimientos y habilidades especializados que podrían no estar disponibles internamente. Esta experiencia puede conducir a una mejor toma de decisiones y soluciones innovadoras que impulsen el crecimiento.",
+      "text-2": "En una era en la que el crecimiento industrial es primordial, la eficiencia y la eficacia de los servicios industriales desempeñan un papel fundamental para impulsar el éxito en diversos sectores. Desde la fabricación y la construcción hasta la logística y el mantenimiento, los servicios industriales abarcan una amplia gama.",
+      "includes": {
+        "title": "Nuestros servicios de Construcción General incluyen:",
+        "item-1": "Instalaciones eléctricas y mecánicas",
+        "item-2": "Mantenimiento preventivo",
+        "item-3": "Sistemas de refrigeración",
+        "item-4": "Soldadura especializada",
+        "item-5": "Manejo de gases especiales",
+        "item-6": "Sistemas de aire comprimido",
+        "item-7": "Maquinado de piezas",
+        "item-8": "Fabricación de estructuras metálicas"
+      }
     }
   }
 }

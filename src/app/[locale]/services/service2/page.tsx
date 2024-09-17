@@ -16,7 +16,7 @@ import Image from "next/image";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
-export default function Service1() {
+export default function Service2() {
   const t = useTranslations('services')
   return (
     <>
@@ -43,7 +43,7 @@ export default function Service1() {
               {t('slogan')}
             </p>
             <h1 className={`text-[2.313rem] md:text-[2.938rem] lg:text-[3.625rem] font-bold leading-tight mb-6 text-balance ${rajdhani.className}`}>
-              {t('service-1.title')}
+              {t('service-2.title')}
             </h1>
             <p className="text-sm md:text-[0.938rem] lg:text-base mb-8 text-balance">
               {t('text')}
@@ -55,8 +55,8 @@ export default function Service1() {
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 max-w-[1280px] mx-auto pb-20 px-4 md:px-5 lg:px-4">
           <main className="lg:w-[68%] bg-white p-6 md:p-9 lg:p-12">
             <h3 className={`${rajdhani.className} text-[1.375rem] md:text-[1.563rem] lg:text-[1.75rem] text-[#13213C] mb-5`}>Description</h3>
-            <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-4">{t('service-1.text-1')}</p>
-            <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-5">{t('service-1.text-2')}</p>
+            <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-4">{t('service-2.text-1')}</p>
+            <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-5">{t('service-2.text-2')}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-5">
               <ZoomableImage src={aboutHeader} alt="Image of the service" className="w-[50%] h-[300px] object-cover" loading="eager" />
               <ZoomableImage src={aboutHeader} alt="Image of the service" className="w-[50%] h-[300px] object-cover" loading="eager" />
@@ -68,19 +68,19 @@ export default function Service1() {
                 <ul>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-1')}
+                    {t('service-2.includes.item-1')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-2')}
+                    {t('service-2.includes.item-2')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-3')}
+                    {t('service-2.includes.item-3')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-4')}
+                    {t('service-2.includes.item-4')}
                   </li>
                 </ul>
               </div>
@@ -88,19 +88,19 @@ export default function Service1() {
                 <ul>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-5')}
+                    {t('service-2.includes.item-5')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-6')}
+                    {t('service-2.includes.item-6')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-7')}
+                    {t('service-2.includes.item-7')}
                   </li>
                   <li className="text-sm md:text-[0.938rem] lg:text-base mb-3 flex items-center" >
                     <Plus size={20} color="#ff9302" className="mr-2" strokeWidth="3" />
-                    {t('service-1.includes.item-8')}
+                    {t('service-2.includes.item-8')}
                   </li>
                 </ul>
               </div>
@@ -112,11 +112,11 @@ export default function Service1() {
               <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-4">Convallis suspendisse rhoncus scelerisque eu penatibus consequat feugiat.</p>
               <ul className="grid md:grid-cols-2 gap-2">
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 2</a>
+                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 1</a>
                 </li>
 
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 3</a>
+                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service3">Service 3</a>
                 </li>
 
                 <li className="mb-2">

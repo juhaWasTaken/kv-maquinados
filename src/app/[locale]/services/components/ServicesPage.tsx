@@ -31,7 +31,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service1',
+        link: 'service2',
         name: 'service 2',
         title: 'services.service-2.title',
         text: 'services.service-2.text',

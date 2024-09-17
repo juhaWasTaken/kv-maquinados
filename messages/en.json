@@ -339,7 +339,19 @@
     },
     "service-2": {
       "title": "Design & Build",
-      "text": "Our design and build services are tailored to your specific needs. We work closely with you to create a custom design that meets your requirements and budget."
+      "text-1": "In an era where industrial growth is paramount, the efficiency and effectiveness of industrial services play a pivotal role in driving success across various sectors. From manufacturing and construction to logistics and maintenance, industrial services encompass a wide range of activities that help businesses optimize their operations. In this post, we’ll explore the key components of industrial services, their benefits, and why investing in these services is essential for sustainable growth.",
+      "text-2": "Industrial services help businesses streamline their operations by identifying inefficiencies and implementing solutions. This can lead to reduced operational costs, increased productivity, and a stronger competitive edge. Many industrial services provide access to specialized knowledge and skills that might not be available in-house. This expertise can lead to improved decision-making and innovative solutions that drive growth.",
+      "includes": {
+        "title": "Our General Construction services include:",
+        "item-1": "Electrical and mechanical installations",
+        "item-2": "Preventive maintenance",
+        "item-3": "Refrigeration systems",
+        "item-4": "Specialized welding",
+        "item-5": "Handling of special gases",
+        "item-6": "Compressed air systems",
+        "item-7": "Machining of parts",
+        "item-8": "Fabrication of metal structures"
+      }
     }
   }
 }
