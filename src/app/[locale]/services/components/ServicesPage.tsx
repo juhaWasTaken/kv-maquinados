@@ -7,13 +7,13 @@ import building from '@/assets/icons/building.svg';
 import tool from '@/assets/icons/tool.svg';
 import paint from '@/assets/icons/paint.svg';
 import barrierBlock from '@/assets/icons/barrier-block.svg';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 interface Service {
-    id: string;
+    link: string;
     name: string;
     title: string;
     text: string;
@@ -21,60 +21,59 @@ interface Service {
     infoCTA: string;
 }
 
+const services: Service[] = [
+    {
+        link: 'service1',
+        name: 'service 1',
+        title: 'services.service-1.title',
+        text: 'services.service-1.text',
+        icon: construction,
+        infoCTA: 'btn-txt',
+    },
+    {
+        link: 'service1',
+        name: 'service 2',
+        title: 'services.service-2.title',
+        text: 'services.service-2.text',
+        icon: users,
+        infoCTA: 'btn-txt',
+    },
+    {
+        link: 'service1',
+        name: 'service 3',
+        title: 'services.service-3.title',
+        text: 'services.service-3.text',
+        icon: building,
+        infoCTA: 'btn-txt',
+    },
+    {
+        link: 'service1',
+        name: 'service 4',
+        title: 'services.service-4.title',
+        text: 'services.service-4.text',
+        icon: tool,
+        infoCTA: 'btn-txt',
+    },
+    {
+        link: 'service1',
+        name: 'service 5',
+        title: 'services.service-5.title',
+        text: 'services.service-5.text',
+        icon: paint,
+        infoCTA: 'btn-txt',
+    },
+    {
+        link: 'service1',
+        name: 'service 6',
+        title: 'services.service-6.title',
+        text: 'services.service-6.text',
+        icon: barrierBlock,
+        infoCTA: 'btn-txt',
+    },
+];
+
 export function ServicesHome() {
     const t = useTranslations('servicesHome');
-    const locale = useLocale();
-
-    const services: Service[] = [
-        {
-            id: 'services1',
-            name: 'service 1',
-            title: 'services.service-1.title',
-            text: 'services.service-1.text',
-            icon: construction,
-            infoCTA: 'btn-txt',
-        },
-        {
-            id: 'services2',
-            name: 'service 2',
-            title: 'services.service-2.title',
-            text: 'services.service-2.text',
-            icon: users,
-            infoCTA: 'btn-txt',
-        },
-        {
-            id: 'services3',
-            name: 'service 3',
-            title: 'services.service-3.title',
-            text: 'services.service-3.text',
-            icon: building,
-            infoCTA: 'btn-txt',
-        },
-        {
-            id: 'services4',
-            name: 'service 4',
-            title: 'services.service-4.title',
-            text: 'services.service-4.text',
-            icon: tool,
-            infoCTA: 'btn-txt',
-        },
-        {
-            id: 'services5',
-            name: 'service 5',
-            title: 'services.service-5.title',
-            text: 'services.service-5.text',
-            icon: paint,
-            infoCTA: 'btn-txt',
-        },
-        {
-            id: 'services6',
-            name: 'service 6',
-            title: 'services.service-6.title',
-            text: 'services.service-6.text',
-            icon: barrierBlock,
-            infoCTA: 'btn-txt',
-        },
-    ];
 
     return (
         <section className="max-w-[1280px] mx-auto p-5">
@@ -101,7 +100,7 @@ export function ServicesHome() {
                             {t(service.title)}
                         </h3>
                         <p className="text-[14px] md:text-[15px] lg:text-[16px] text-[#535353] mt-5">{t(service.text)}</p>
-                        <Link href={`/${locale}/services/${service.id}`} className={`text-lg text-[#ff9302] border-b border-[#ff9302] mb-[1px] hover:border-[#13213C] hover:text-[#13213C] w-fit transition-colors duration-300 mt-5 ${rajdhani.className}`}>
+                        <Link href={`/services/${service.link}`} className={`text-lg text-[#ff9302] border-b border-[#ff9302] mb-[1px] hover:border-[#13213C] hover:text-[#13213C] w-fit transition-colors duration-300 mt-5 ${rajdhani.className}`}>
                             {t(service.infoCTA)}
                         </Link>
                     </div>

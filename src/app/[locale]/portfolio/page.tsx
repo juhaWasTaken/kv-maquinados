@@ -17,7 +17,7 @@ export default async function Home({ params }: { params: Params }) {
     <>
       <Navbar />
       <HeaderPortfolio />
-      <main className="">
+      <main>
         <LatestProjectsPortfolio className="mb-20" />
         <ServicesPortfolio className="mb-14" />
         <TestimonialsPortfolio className="mb-14" />
