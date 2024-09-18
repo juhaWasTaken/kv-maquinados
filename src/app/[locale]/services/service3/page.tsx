@@ -112,23 +112,23 @@ export default function Service3() {
               <p className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] mb-4">Convallis suspendisse rhoncus scelerisque eu penatibus consequat feugiat.</p>
               <ul className="grid md:grid-cols-2 gap-2">
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 2</a>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 2</Link>
                 </li>
 
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 3</a>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 3</Link>
                 </li>
 
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 4</a>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 4</Link>
                 </li>
 
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 5</a>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 5</Link>
                 </li>
 
                 <li className="mb-2">
-                  <a className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 6</a>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service1">Service 6</Link>
                 </li>
 
               </ul>

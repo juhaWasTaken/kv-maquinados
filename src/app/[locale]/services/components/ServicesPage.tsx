@@ -47,7 +47,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service1',
+        link: 'service4',
         name: 'service 4',
         title: 'services.service-4.title',
         text: 'services.service-4.text',
@@ -55,7 +55,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service1',
+        link: 'service5',
         name: 'service 5',
         title: 'services.service-5.title',
         text: 'services.service-5.text',
@@ -63,7 +63,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service1',
+        link: 'service6',
         name: 'service 6',
         title: 'services.service-6.title',
         text: 'services.service-6.text',
