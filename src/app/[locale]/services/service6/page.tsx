@@ -15,9 +15,14 @@ import image3 from "@/assets/images/image3.webp";
 import Image from "next/image";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
-
-export default function Service6() {
+interface Params {
+  params: {
+    locale: string;
+  }
+}
+export default async function Service6({ params: { locale } }: Params) {
   const t = useTranslations('services')
+  unstable_setRequestLocale(locale);
   return (
     <>
       <Navbar />

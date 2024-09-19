@@ -56,7 +56,7 @@ type RootLayoutProps = {
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}))
+  return routing.locales.map((locale) => ({ locale }))
 }
 
 export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {

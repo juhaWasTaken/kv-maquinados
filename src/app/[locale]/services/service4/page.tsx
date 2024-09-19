@@ -13,11 +13,17 @@ import { Plus } from "lucide-react";
 import parallaxContact from "@/assets/images/servicesHeader.webp";
 import image3 from "@/assets/images/image3.webp";
 import Image from "next/image";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
-
-export default function Service4() {
+interface Params {
+  params: {
+    locale: string;
+  }
+}
+export default async function Service4({ params: { locale } }: Params) {
   const t = useTranslations('services')
+  unstable_setRequestLocale(locale);
   return (
     <>
       <Navbar />

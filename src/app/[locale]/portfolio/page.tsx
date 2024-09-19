@@ -5,14 +5,17 @@ import { ServicesPortfolio } from "./components/ServicesPortfolio";
 import { FooterCTA } from "@/components/sections/FooterCTA";
 import { Footer } from "@/components/sections/Footer";
 import { TestimonialsPortfolio } from "./components/TestimonialsPortfolio";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 // Define the type for params
 interface Params {
-  locale: string;
+  params: {
+    locale: string;
+  }
 }
 
-export default async function Home({ params }: { params: Params }) {
-
+export default async function Home({ params: { locale } }: Params) {
+  unstable_setRequestLocale(locale);
   return (
     <>
       <Navbar />
