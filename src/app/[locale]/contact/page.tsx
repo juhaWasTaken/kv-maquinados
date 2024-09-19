@@ -13,9 +13,6 @@ interface Params {
       locale: string
   }
 }
-
-const i18nNamespaces = ["home", "about", "portfolio", "services", "contact"];
-
 export default async function Home({params: {locale}}: Params) {
   unstable_setRequestLocale(locale);
   return (
