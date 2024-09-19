@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { routing } from "@/i18n/routing";
 
 const rubik = Rubik({ subsets: ["latin"] });
@@ -60,9 +60,7 @@ export function generateStaticParams() {
 }
 
 export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
-
   const messages = await getMessages();
-  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale}>

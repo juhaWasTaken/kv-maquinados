@@ -8,16 +8,8 @@ import { ParallaxSection } from "@/components/sections/SectorHome";
 import { LatestProjects } from "@/components/sections/LatestHome";
 import { FooterCTA } from "@/components/sections/FooterCTA";
 import { Footer } from "@/components/sections/Footer";
-import { unstable_setRequestLocale } from "next-intl/server";
 
-// Define the type for params
-interface Params {
-  params: {
-    locale: string;
-  }
-}
-export default async function Home({ params: { locale } }: Params) {
-  unstable_setRequestLocale(locale);
+export default async function Home() {
   return (
     <>
       <Navbar />
