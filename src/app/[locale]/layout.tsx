@@ -3,9 +3,12 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
+import { routing } from "@/i18n/routing";
 
 const rubik = Rubik({ subsets: ["latin"] });
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
   title: "KV Servicios Proyectos y Maquinados Industriales",
@@ -33,25 +36,34 @@ export const metadata: Metadata = {
     locale: 'es_MX',
     url: 'https://kvmaquinados.com',
     siteName: 'KV Servicios Proyectos y Maquinados Industriales',
+    images: [
+      {
+        url: `${siteUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'KV Servicios Proyectos y Maquinados Industriales'
+      }
+    ]
   }
 };
 
-// Define the type for the params
-interface Params {
-  locale: string;
-}
-
 // Define the props type for RootLayout
-interface RootLayoutProps {
+type RootLayoutProps = {
   children: React.ReactNode;
-  params: Params;
+  params: {
+    locale: string;
+  };
 }
 
-export default async function RootLayout({
-  children,
-  params: { locale }
-}: RootLayoutProps) {
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}))
+}
+
+export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
+
   const messages = await getMessages();
+  unstable_setRequestLocale(locale);
+
   return (
     <html lang={locale}>
       <body className={rubik.className}>

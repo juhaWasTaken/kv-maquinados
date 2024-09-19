@@ -33,7 +33,7 @@ export function ServicesPortfolio({ className = "" }) {
                 <p className="text-white text-sm md:text-[15px] lg:text-base lg:mb-[32px] max-w-[568px]">
                     {t('text')}
                 </p>
-                <Link href="#" className={`bg-[#ff9302] text-sm md:text-[15px] lg:text-base text-white py-[10px] px-5 hover:bg-[#13213C] hover:text-[#ff9302] text-center w-full md:w-fit transition-colors duration-300 ${rajdhani.className}`}>
+                <Link href="/services" className={`bg-[#ff9302] text-sm md:text-[15px] lg:text-base text-white py-[10px] px-5 hover:bg-[#13213C] hover:text-[#ff9302] text-center w-full md:w-fit transition-colors duration-300 ${rajdhani.className}`}>
                     {t('btnTxt')}
                 </Link>
             </div>
