@@ -22,7 +22,7 @@ type FormFields = z.infer<typeof schema>;
 
 export const ContactForm = () => {
     const t = useTranslations('formContact');
-    const { register, handleSubmit, setError, formState: { errors, isSubmitting } } = useForm<FormFields>({resolver: zodResolver(schema), context: {t}});
+    const { register, handleSubmit, setError, formState: { errors, isSubmitting}, reset } = useForm<FormFields>({resolver: zodResolver(schema), context: {t}});
 
     const onSubmit: SubmitHandler<FormFields> = async (data) => {
         try {
@@ -42,6 +42,7 @@ export const ContactForm = () => {
 
             if(response.ok) {
                 toast.success('Message sent successfully');
+                reset();
             } else {
                 const errorData = await response.json(); 
                 toast.error(errorData.error || 'Failed to send email');
