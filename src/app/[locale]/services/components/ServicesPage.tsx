@@ -9,6 +9,7 @@ import paint from '@/assets/icons/paint.svg';
 import barrierBlock from '@/assets/icons/barrier-block.svg';
 import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
+import NavigationLink from '@/components/ui/NavigationLink';
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
