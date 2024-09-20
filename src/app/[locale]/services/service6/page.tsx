@@ -17,7 +17,7 @@ import Image from "next/image";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
-export default async function Service6() {
+export default function Service6() {
   const t = useTranslations('services')
 
   return (

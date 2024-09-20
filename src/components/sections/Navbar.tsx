@@ -10,11 +10,12 @@ import { useTranslations } from "next-intl"
 import LocaleSwitcher from "../LocaleSwitcher"
 
 export function Navbar() {
+    const t = useTranslations('nav') 
     const [menuOpen, setMenuOpen] = useState(false)
+
     const toggleMenu = () => {
         setMenuOpen(!menuOpen)
     }
-    const t = useTranslations('nav') 
 
     return (
         <>
@@ -43,11 +44,11 @@ export function Navbar() {
                         </div>
                     </div>
                     <nav className={`flex flex-col md:flex-row p-1 md:px-4 gap-[2px] bg-gray-200 md:bg-transparent md:gap-4 lg:gap-5 md:items-center ${menuOpen ? 'block' : 'hidden'} md:flex md:text-center`}>
-                        <NavigationLink className="nav-link" href="/" >{t('home')}</NavigationLink>
-                        <NavigationLink className="nav-link" href="/services" >{t('services')}</NavigationLink>
-                        <NavigationLink className="nav-link" href="/contact" >{t('contact')}</NavigationLink>
-                        <NavigationLink className="nav-link" href="/about-us" >{t('about_us')}</NavigationLink>
-                        <NavigationLink className="nav-link" href="/portfolio" >{t('portfolio')}</NavigationLink>
+                        <NavigationLink href="/" >{t('home')}</NavigationLink>
+                        <NavigationLink href="/services" >{t('services')}</NavigationLink>
+                        <NavigationLink href="/contact" >{t('contact')}</NavigationLink>
+                        <NavigationLink href="/about-us" >{t('about_us')}</NavigationLink>
+                        <NavigationLink href="/portfolio" >{t('portfolio')}</NavigationLink>
                         <LocaleSwitcher />
                     </nav>
                 </div>

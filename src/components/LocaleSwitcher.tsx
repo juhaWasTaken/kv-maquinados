@@ -12,11 +12,28 @@ export default function LocaleSwitcher() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
 
+    // const handleLocaleChange = (newLocale: string) => {
+    //     const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+    //     router.push(newPath);
+    //     console.log(newPath);
+    //     setIsOpen(false);
+    // };
+
     const handleLocaleChange = (newLocale: string) => {
-        const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
+        const currentLocale = `/${locale}`;
+        let newPath = pathname;
+
+        if (pathname.startsWith(currentLocale)) {
+            newPath = pathname.replace(currentLocale, `/${newLocale}`);
+        } else {
+            newPath = `/${newLocale}${pathname}`;
+        }
+
+        // console.log(`Changing locale from ${locale} to ${newLocale}. New path: ${newPath}`);
         router.push(newPath);
         setIsOpen(false);
     };
+
 
     return (
         <div className="relative inline-block text-left">
