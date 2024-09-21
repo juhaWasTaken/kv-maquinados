@@ -7,6 +7,7 @@ import tool from "../../assets/icons/tool.svg";
 import paint from "../../assets/icons/paint.svg";
 import barrierBlock from "../../assets/icons/barrier-block.svg";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
@@ -65,7 +66,7 @@ export function ServicesHome() {
                         <Image src={service.icon} alt={service.title} className="bg-[#ff9302] p-3" width={64} height={64} loading="eager" priority />
                         <h3 className={`${rajdhani.className} text-[#13213C] text-[22px] md:text-[25px] lg:text-[28px] font-medium mt-5`}>{t(service.title)}</h3>
                         <p className="text-[14px] md:text-[15px] lg:text-[16px] text-[#535353] mt-5">{t(service.text)}</p>
-                        <button className={`text-lg text-[#ff9302] border-b border-[#ff9302] mb-[1px] hover:border-[#13213C] hover:text-[#13213C] w-fit transition-colors duration-300 mt-5 ${rajdhani.className}`}>{t(service.infoCTA)}</button>
+                        <Link href='/services' className={`text-lg text-[#ff9302] border-b border-[#ff9302] mb-[1px] hover:border-[#13213C] hover:text-[#13213C] w-fit transition-colors duration-300 mt-5 ${rajdhani.className}`}>{t(service.infoCTA)}</Link>
                     </div>
                 ))}
             </div>
