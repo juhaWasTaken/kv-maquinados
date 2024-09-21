@@ -4,7 +4,7 @@ import { Rubik } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { routing } from "@/i18n/routing";
+import { Analytics } from '@vercel/analytics/react';
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -62,6 +62,7 @@ export default async function RootLayout({ children, params: { locale } }: RootL
     <html lang={locale}>
       <body className={rubik.className}>
         <NextIntlClientProvider messages={messages}>
+          <Analytics />
           {children}
           <Toaster position="top-right" reverseOrder={false} />
         </NextIntlClientProvider>
