@@ -124,7 +124,7 @@ export const ContactForm = () => {
                         type="submit"
                         disabled={isSubmitting}
                     >
-                        {isSubmitting ? 'Sending...' : 'Send Message'}
+                        {isSubmitting ? t('form.sending') : t('form.send')}
                     </button>
                 </form>
                 <Map />

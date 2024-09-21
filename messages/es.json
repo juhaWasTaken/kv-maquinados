@@ -1,4 +1,9 @@
 {
+  "not-found": {
+    "title": "Whoops! Página no encontrada",
+    "text": "Lo sentimos, pero la página que estás buscando no existe.",
+    "button": "Volver a Inicio"
+  },
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, es {Español} en {Inglés} other {Unknown}}"
