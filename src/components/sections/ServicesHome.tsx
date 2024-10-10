@@ -1,6 +1,6 @@
 import { Rajdhani } from "next/font/google"
 import Image from "next/image";
-import construction from "../../assets/icons/construction.svg";
+import construction from "@/assets/icons/construction.svg";
 import users from "../../assets/icons/users.svg";
 import building from "../../assets/icons/building.svg";
 import tool from "../../assets/icons/tool.svg";
