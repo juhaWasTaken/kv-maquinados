@@ -24,7 +24,7 @@ interface Service {
 
 const services: Service[] = [
     {
-        link: 'service1',
+        link: 'welding-structural',
         name: 'service 1',
         title: 'services.service-1.title',
         text: 'services.service-1.text',
@@ -32,7 +32,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service2',
+        link: 'industrial-maintenance',
         name: 'service 2',
         title: 'services.service-2.title',
         text: 'services.service-2.text',
@@ -40,7 +40,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service3',
+        link: 'machining-parts',
         name: 'service 3',
         title: 'services.service-3.title',
         text: 'services.service-3.text',
@@ -48,7 +48,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service4',
+        link: 'installations-management',
         name: 'service 4',
         title: 'services.service-4.title',
         text: 'services.service-4.text',
@@ -56,7 +56,7 @@ const services: Service[] = [
         infoCTA: 'btn-txt',
     },
     {
-        link: 'service5',
+        link: 'metal-cutting',
         name: 'service 5',
         title: 'services.service-5.title',
         text: 'services.service-5.text',
