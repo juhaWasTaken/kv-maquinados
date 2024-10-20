@@ -26,7 +26,14 @@ export const metadata: Metadata = {
     "fabricación de acero",
     "grúas viajeras",
     "reynosa",
-    "KV Maquinados"
+    "KV Maquinados",
+    "KV Servicios Proyectos y Maquinados Industriales",
+    "KV Servicios Maquinados",
+    "KV Servicios Industriales",
+    "KV Servicios",
+    "KV Industriales",
+    "KV Maquinados Industriales",
+    "KV"
   ],
   authors: [{ name: "KV Maquinados" }],
   openGraph: {
