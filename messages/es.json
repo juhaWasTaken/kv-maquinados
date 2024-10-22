@@ -41,6 +41,7 @@
   "servicesHome": {
     "section": "Nuestros Servicios",
     "title": "Escuchar Mejor. Planificar Mejor. Construir Mejor",
+    "headerTxt": "Echa un vistazo a todos los servicios que ofrecemos. Contamos con una amplia gama de servicios para ayudarte a crear un proyecto innovador y sostenible.",
     "services": {
       "service-1": {
         "title": "Soldadura y Fabricación Estructural",
