@@ -128,7 +128,7 @@ export default function Service4() {
                 </li>
 
                 <li className="mb-2">
-                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/service6">{t('service-6.title')}</Link>
+                  <Link className="text-sm md:text-[0.938rem] lg:text-base text-[#535353] hover:text-[#ff9302]" href="/services/project-development">{t('service-6.title')}</Link>
                 </li>
 
               </ul>

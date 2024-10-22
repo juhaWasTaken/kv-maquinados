@@ -63,8 +63,8 @@
         "text": "Specialized metal cutting and forming services, using state-of-the-art technology to meet the most demanding needs of our customers in various industrial sectors."
       },
       "service-6": {
-        "title": "Maintenance",
-        "text": "We offer a range of maintenance services to keep your property in top condition. From repairs to inspections, we have you covered."
+        "title": "Industrial Project Development and Engineering ",
+        "text": "We offer engineering and development services for industrial projects, taking advantage of our extensive experience and technical knowledge to provide innovative and efficient solutions."
       }
     },
     "btn-txt": "Learn More"
@@ -292,37 +292,6 @@
     "home": "Home",
     "services": "Services"
   },
-  "servicesHome-2": {
-    "section": "Our Services",
-    "title": "Listen Better. Plan Better. Build Better",
-    "services": {
-      "service-1": {
-        "title": "Welding and Structural Fabrication",
-        "text": "We offer a wide range of welding and structural fabrication services, ranging from aluminum to stainless and carbon steel."
-      },
-      "service-2": {
-        "title": "Design & Build",
-        "text": "Our design and build services are tailored to your specific needs. We work closely with you to create a custom design that meets your requirements and budget."
-      },
-      "service-3": {
-        "title": "Renovation & Remodeling",
-        "text": "Whether you need a complete renovation or just a few updates, we can help. Our team has the skills and experience to transform your space into something beautiful."
-      },
-      "service-4": {
-        "title": "Project Management",
-        "text": "Our project management services are designed to help you stay on track and on budget. We will work with you every step of the way to ensure your project is a success."
-      },
-      "service-5": {
-        "title": "Consulting",
-        "text": "Our consulting services are perfect for those who need expert advice on their construction project. We will help you navigate the process and make informed decisions."
-      },
-      "service-6": {
-        "title": "Maintenance",
-        "text": "We offer a range of maintenance services to keep your property in top condition. From repairs to inspections, we have you covered."
-      }
-    },
-    "btn-txt": "Learn More"
-  },
   "services": {
     "slogan": "Excellence is our standard",
     "text": "At KV Servicios y Maquinados, we turn your vision into reality. From the initial design phase to the final touches.",
@@ -337,7 +306,6 @@
       "text-1": "We offer a wide range of welding and structural fabrication services, ranging from aluminum to stainless steel and carbon steel. Our experience in this field allows us to undertake complex projects such as the fabrication of metal structures, production cells, guards, ladders, doors and gates, racks, racks, steel structures, tanks and roof structures. In addition, we specialize in the fabrication of structural bridges for overhead cranes, which demonstrates our ability to handle large and technically complex projects.",
       "text-2": "We have a welding shop equipped with advanced technology, which allows us to offer high quality and precision services. Our experience in the maquiladora industry and in construction projects provides us with a deep understanding of the specific needs of our customers in various industrial sectors.",
       "includes": {
-        "title": "Our General Construction services include:",
         "item-1": "We work with different materials: aluminum, stainless steel and carbon steel.",
         "item-2": "We manufacture metallic structures for a variety of industrial applications.",
         "item-3": "We specialize in the construction of structural bridges for overhead cranes.",
@@ -353,15 +321,14 @@
       "text-1": "In an era where industrial growth is paramount, the efficiency and effectiveness of industrial services play a pivotal role in driving success across various sectors. From manufacturing and construction to logistics and maintenance, industrial services encompass a wide range of activities that help businesses optimize their operations. In this post, we’ll explore the key components of industrial services, their benefits, and why investing in these services is essential for sustainable growth.",
       "text-2": "Industrial services help businesses streamline their operations by identifying inefficiencies and implementing solutions. This can lead to reduced operational costs, increased productivity, and a stronger competitive edge. Many industrial services provide access to specialized knowledge and skills that might not be available in-house. This expertise can lead to improved decision-making and innovative solutions that drive growth.",
       "includes": {
-        "title": "Our General Construction services include:",
-        "item-1": "Electrical and mechanical installations",
-        "item-2": "Preventive maintenance",
-        "item-3": "Refrigeration systems",
-        "item-4": "Specialized welding",
-        "item-5": "Handling of special gases",
-        "item-6": "Compressed air systems",
-        "item-7": "Machining of parts",
-        "item-8": "Fabrication of metal structures"
+        "item-1": "We perform preventive and corrective maintenance for a wide range of industrial equipment.",
+        "item-2": "We offer specialized services for air conditioning and industrial refrigeration systems.",
+        "item-3": "We provide maintenance and calibration for natural gas and LPG systems.",
+        "item-4": "We have a rapid response capability for emergency repairs.",
+        "item-5": "Our technical staff is highly trained in various industrial maintenance disciplines.",
+        "item-6": "We use specialized tools and equipment for accurate diagnosis and repair.",
+        "item-7": "We offer long-term maintenance contracts to ensure operational continuity.",
+        "item-8": "Our services are designed to optimize efficiency and extend the life of industrial equipment."
       }
     },
     "service-3": {
@@ -369,7 +336,6 @@
       "text-1": "We offer specialized machining and custom part fabrication services to meet the specific needs of our customers in various industrial sectors. Our shop is equipped with high precision machinery, including lathes, milling machines and CNC machines, allowing us to produce complex parts to tight tolerances. We have the capability to work with a wide range of materials, from base metals to special alloys.",
       "text-2": "Our services range from the production of one-off prototypes to mass production of components. In addition, we offer part design and development services, working closely with our customers to optimize the design and functionality of each component. Our team of highly skilled engineers and technicians ensures that each part meets the highest standards of quality and precision.",
       "includes": {
-        "title": "Our General Construction services include:",
         "item-1": "We have state-of-the-art machinery, including lathes, milling machines and CNC equipment.",
         "item-2": "We offer vertical machining, horizontal machining and turning services for a wide variety of parts.",
         "item-3": "We have the ability to work with a variety of materials, adapting to customer specifications.",
@@ -385,7 +351,6 @@
       "text-1": "We offer comprehensive industrial installations and project management services, covering a wide range of critical systems for the efficient operation of plants and factories. Our services include the installation and maintenance of high and low voltage electrical systems, following Mexican and NEC standards. We specialize in the installation of compressed air, water and specialty gas loops, ensuring the efficient distribution of these vital resources in industrial environments.",
       "text-2": "We also install pneumatic, hydraulic and special gas systems such as argon, nitrogen and oxygen, complying with the strictest standards and norms. Our team of highly trained engineers and technicians manage complete projects, from initial planning to commissioning, ensuring that each installation meets our customers' specific requirements and current regulations.",
       "includes": {
-        "title": "Our General Construction services include:",
         "item-1": "We perform high and low voltage industrial electrical installations, complying with Mexican and NEC standards.",
         "item-2": "We install and maintain compressed air, water and special gas distribution systems.",
         "item-3": "We offer installation services for pneumatic and hydraulic systems adapted to the specific needs of each industry.",
@@ -401,7 +366,6 @@
       "text-1": "We offer specialized metal cutting and forming services, utilizing state-of-the-art technology to meet the most demanding needs of our customers in various industrial sectors. Our shop is equipped with advanced machinery, including a MARK7 pantograph with plasma and oxy-fuel cutting capabilities, a Cincinnati 7 curtain bender with 175 ton capacity, and a CINCINNATI mechanical-pneumatic shear for precise cuts. In addition, we have a 3-roll hydraulic bending machine for sheet metal forming.",
       "text-2": "This combination of equipment allows us to offer a wide range of services, from complex and precise cuts to the bending and rolling of large parts. Our team of highly trained operators guarantees maximum precision and quality in every job, adapting to the most demanding specifications of our customers.",
       "includes": {
-        "title": "Our General Construction services include:",
         "item-1": "We use a MARK7 pantograph with 5x10 ft. cutting area, equipped with Hypertherm Powermax125 plasma for high precision cuts.",
         "item-2": "We offer oxyfuel services for thicker materials.",
         "item-3": "Our Cincinnati 7 curtain bender has a 175-ton capacity and 12-foot length, allowing large parts to be formed.",
@@ -413,19 +377,18 @@
       }
     },
     "service-6": {
-      "title": "Maintenance",
-      "text-1": "In an era where industrial growth is paramount, the efficiency and effectiveness of industrial services play a pivotal role in driving success across various sectors. From manufacturing and construction to logistics and maintenance, industrial services encompass a wide range of activities that help businesses optimize their operations. In this post, we’ll explore the key components of industrial services, their benefits, and why investing in these services is essential for sustainable growth.",
-      "text-2": "Industrial services help businesses streamline their operations by identifying inefficiencies and implementing solutions. This can lead to reduced operational costs, increased productivity, and a stronger competitive edge. Many industrial services provide access to specialized knowledge and skills that might not be available in-house. This expertise can lead to improved decision-making and innovative solutions that drive growth.",
+      "title": "Industrial Project Development and Engineering",
+      "text-1": "We offer comprehensive engineering and development services for industrial projects, leveraging our extensive experience and technical knowledge to provide innovative and efficient solutions. Our team of highly qualified engineers specializes in the design and planning of industrial facilities, process optimization and continuous improvement of existing systems. We use advanced design tools such as AutoCAD 2012 to create detailed drawings and 3D models, enabling clear visualization of projects prior to implementation.",
+      "text-2": "Our services range from initial needs analysis to complete project management, including structural calculations, architectural design and computer aided production planning (CAM). We focus on developing customized solutions that improve operational efficiency, reduce costs and increase productivity for our clients, always considering current regulations and industry best practices.",
       "includes": {
-        "title": "Our General Construction services include:",
-        "item-1": "Electrical and mechanical installations",
-        "item-2": "Preventive maintenance",
-        "item-3": "Refrigeration systems",
-        "item-4": "Specialized welding",
-        "item-5": "Handling of special gases",
-        "item-6": "Compressed air systems",
-        "item-7": "Machining of parts",
-        "item-8": "Fabrication of metal structures"
+        "item-1": "We provide design and planning services for industrial facilities using advanced CAD software.",
+        "item-2": "We offer analysis and optimization of industrial processes to improve efficiency and reduce costs.",
+        "item-3": "We perform structural calculations and architectural design for industrial projects of various scales.",
+        "item-4": "We use Computer Aided Manufacturing (CAM) technologies to optimize production processes.",
+        "item-5": "We manage complete projects, from conceptualization to implementation and start-up.",
+        "item-6": "We offer reverse engineering services to improve or replicate existing systems and components.",
+        "item-7": "We provide specialized technical advice on industry standards and best practices.",
+        "item-8": "We develop customized solutions that adapt to the specific needs and budget of each client."
       }
     }
   }

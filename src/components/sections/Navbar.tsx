@@ -18,8 +18,8 @@ export function Navbar() {
     }
 
     return (
-        <>
-            <section className="bg-[#13213C]  z-50 relative">
+        <nav className="sticky top-0 z-50">
+            <section className="bg-[#13213C] z-50 relative">
                 <div className="flex flex-col gap-1 md:flex-row items-center justify-between max-w-[1280px] mx-auto py-2 px-4">
                     <p className="flex items-center text-xs md:text-sm text-center text-balance text-white gap-2 font-normal">
                         <Clock className="w-4 h-4 text-orange-400" />
@@ -31,7 +31,7 @@ export function Navbar() {
                     </p>
                 </div>
             </section>
-            <section className="border-b border-gray-800 w-full z-50 relative ">
+            <section className="shadow-lg w-full z-50 relative bg-white ">
                 <div className="flex flex-col md:flex-row mx-auto justify-between max-w-[1280px]">
                     <div className="flex items-center justify-between gap-2 border-b border-gray-500 md:border-none py-3 px-4">
                         <div className="flex items-center gap-1">
@@ -53,6 +53,6 @@ export function Navbar() {
                     </nav>
                 </div>
             </section>
-        </>
+        </nav>
     )
 }

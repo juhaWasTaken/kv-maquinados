@@ -63,8 +63,8 @@
         "text": "Servicios especializados de corte y conformado de metales, utilizando tecnología de vanguardia para satisfacer las necesidades más exigentes de nuestros clientes en diversos sectores industriales."
       },
       "service-6": {
-        "title": "Mantenimiento",
-        "text": "Ofrecemos una variedad de servicios de mantenimiento para mantener su propiedad en óptimas condiciones. Desde reparaciones hasta inspecciones, lo tenemos cubierto."
+        "title": "Desarrollo de Proyectos Industriales e Ingeniería",
+        "text": "Ofrecemos servicios de ingeniería y desarrollo de proyectos industriales, aprovechando nuestra amplia experiencia y conocimiento técnico para proporcionar soluciones innovadoras y eficientes. "
       }
     },
     "btn-txt": "Saber Más"
@@ -292,36 +292,6 @@
     "home": "Inicio",
     "services": "Servicios"
   },
-  "sectorHome-2": {
-    "title": "Sector donde trabajamos",
-    "text": "Trabajamos en una variedad de sectores, incluyendo comercial, residencial, industrial, gobierno, salud y hospitalidad.",
-    "sectors": {
-      "sector-1": {
-        "title": "Comercial",
-        "text": "Ofrecemos una amplia gama de servicios comerciales, incluyendo pintura, remodelación, y más."
-      },
-      "sector-2": {
-        "title": "Residencial",
-        "text": "Nuestros servicios de gestión de proyectos están diseñados para ayudarlo a mantenerse en el camino y dentro del presupuesto. "
-      },
-      "sector-3": {
-        "title": "Industrial",
-        "text": "Ofrecemos servicios especializados para instalaciones industriales, incluyendo control de infecciones, eliminación de plomo, y más."
-      },
-      "sector-4": {
-        "title": "Gobierno",
-        "text": "Nuestro equipo tiene experiencia trabajando en proyectos gubernamentales, incluyendo escuelas, hospitales, y otros edificios públicos."
-      },
-      "sector-5": {
-        "title": "Salud",
-        "text": "Ofrecemos servicios especializados para instalaciones de salud, incluyendo control de infecciones, eliminación de plomo, y más."
-      },
-      "sector-6": {
-        "title": "Hospitalidad",
-        "text": "Nuestro equipo tiene experiencia trabajando en proyectos de hospitalidad, incluyendo hoteles, restaurantes, y otros establecimientos comerciales."
-      }
-    }
-  },
   "services": {
     "slogan": "La excelencia es nuestro estándar",
     "text": "En KV Servicios y Maquinado, hacemos su visión realidad. Desde la fase inicial de diseño hasta los toques finales",
@@ -336,7 +306,6 @@
       "text-1": "Ofrecemos una amplia gama de servicios de soldadura y fabricación estructural, abarcando desde aluminio hasta acero inoxidable y acero al carbono. Nuestra experiencia en este campo nos permite realizar proyectos complejos como la fabricación de estructuras metálicas, celdas de producción, protecciones, escaleras, puertas y portones, bastidores, racks, estructuras de acero, depósitos y estructuras para techos. Además, nos especializamos en la fabricación de puentes estructurales para grúas viajeras, lo que demuestra nuestra capacidad para manejar proyectos de gran envergadura y complejidad técnica.",
       "text-2": "Contamos con un taller de soldadura equipado con tecnología avanzada, lo que nos permite ofrecer servicios de alta calidad y precisión. Nuestra experiencia en la industria maquiladora y en proyectos de construcción nos proporciona un entendimiento profundo de las necesidades específicas de nuestros clientes en diversos sectores industriales.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
         "item-1": "Trabajamos con diversos materiales: aluminio, acero inoxidable y acero al carbono.",
         "item-2": "Fabricamos estructuras metálicas para una variedad de aplicaciones industriales.",
         "item-3": "Nos especializamos en la construcción de puentes estructurales para grúas viajeras.",
@@ -352,7 +321,6 @@
       "text-1": "Ofrecemos servicios integrales de mantenimiento industrial y reparaciones para una amplia gama de equipos y sistemas. Nuestro enfoque abarca tanto el mantenimiento preventivo como el correctivo, asegurando que las operaciones de nuestros clientes se mantengan en óptimas condiciones. Nos especializamos en el mantenimiento de sistemas de aire acondicionado, enfriadores de agua, compresores de aire, sistemas de iluminación y equipos industriales diversos. Además, proveemos servicios de mantenimiento para redes de aprovechamiento de Gas Natural y GLP, incluyendo la calibración de válvulas de seguridad y medición de espesores.",
       "text-2": "Nuestro equipo altamente capacitado está preparado para responder a emergencias y realizar reparaciones urgentes, minimizando el tiempo de inactividad y maximizando la productividad de nuestros clientes. Contamos con herramientas especializadas y personal técnico calificado para abordar una variedad de desafíos de mantenimiento en entornos industriales.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
         "item-1": "Mantenimiento preventivo y correctivo para una amplia gama de equipos industriales.",
         "item-2": "Ofrecemos servicios especializados para sistemas de aire acondicionado y refrigeración industrial.",
         "item-3": "Proveemos mantenimiento y calibración para sistemas de gas natural y GLP.",
@@ -368,7 +336,6 @@
       "text-1": "Ofrecemos servicios especializados de maquinado y fabricación de piezas a medida para satisfacer las necesidades específicas de nuestros clientes en diversos sectores industriales. Nuestro taller está equipado con maquinaria de alta precisión, incluyendo tornos, fresadoras y máquinas CNC, lo que nos permite producir piezas complejas con tolerancias estrictas. Tenemos la capacidad de trabajar con una amplia gama de materiales, desde metales comunes hasta aleaciones especiales.",
       "text-2": "Nuestros servicios abarcan desde la producción de prototipos únicos hasta la fabricación en serie de componentes. Además, ofrecemos servicios de diseño y desarrollo de piezas, trabajando en estrecha colaboración con nuestros clientes para optimizar el diseño y la funcionalidad de cada componente. Nuestro equipo de ingenieros y técnicos altamente calificados garantiza que cada pieza cumpla con los más altos estándares de calidad y precisión.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
         "item-1": "Contamos con maquinaria de última generación, incluyendo tornos, fresadoras y equipos CNC.",
         "item-2": "Ofrecemos servicios de maquinado vertical, horizontal y torneado para una amplia variedad de piezas.",
         "item-3": "Tenemos capacidad para trabajar con diversos materiales, adaptándonos a las especificaciones del cliente.",
@@ -384,7 +351,6 @@
       "text-1": "Ofrecemos servicios integrales de instalaciones industriales y gestión de proyectos, abarcando una amplia gama de sistemas críticos para el funcionamiento eficiente de plantas y fábricas. Nuestros servicios incluyen la instalación y mantenimiento de sistemas eléctricos de alta y baja tensión, siguiendo las normas mexicanas y NEC. Nos especializamos en la instalación de loops de aire comprimido, agua y gases especiales, asegurando la distribución eficiente de estos recursos vitales en entornos industriales.",
       "text-2": "Además, realizamos instalaciones de sistemas neumáticos, hidráulicos y de gases especiales como argón, nitrógeno y oxígeno, cumpliendo con los estándares y normas más estrictos. Nuestro equipo de ingenieros y técnicos altamente capacitados gestiona proyectos completos, desde la planificación inicial hasta la puesta en marcha, garantizando que cada instalación cumpla con los requisitos específicos de nuestros clientes y las normativas vigentes.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
         "item-1": "Realizamos instalaciones eléctricas industriales de alta y baja tensión, cumpliendo con normas mexicanas y NEC.",
         "item-2": "Instalamos y mantenemos sistemas de distribución de aire comprimido, agua y gases especiales.",
         "item-3": "Ofrecemos servicios de instalación para sistemas neumáticos e hidráulicos adaptados a las necesidades específicas de cada industria.",
@@ -400,7 +366,6 @@
       "text-1": "Ofrecemos servicios especializados de corte y conformado de metales, utilizando tecnología de vanguardia para satisfacer las necesidades más exigentes de nuestros clientes en diversos sectores industriales. Nuestro taller está equipado con maquinaria avanzada, incluyendo un pantógrafo MARK7 con capacidad de corte de plasma y oxicorte, una dobladora de cortina Cincinnati 7 con capacidad de 175 toneladas, y una cizalla mecánica-neumática CINCINNATI para cortes precisos. Además, contamos con una roladora hidráulica de 3 rodillos para el formado de láminas metálicas.",
       "text-2": "Esta combinación de equipos nos permite ofrecer una amplia gama de servicios, desde cortes complejos y precisos hasta el doblado y rolado de piezas de gran tamaño. Nuestro equipo de operadores altamente capacitados garantiza la máxima precisión y calidad en cada trabajo, adaptándonos a las especificaciones más exigentes de nuestros clientes.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
         "item-1": "Utilizamos un pantógrafo MARK7 con área de corte de 5x10 pies, equipado con plasma Hypertherm Powermax125 para cortes de alta precisión.",
         "item-2": "Ofrecemos servicios de oxicorte para materiales de mayor espesor.",
         "item-3": "Nuestra dobladora de cortina Cincinnati 7 tiene una capacidad de 175 toneladas y 12 pies de longitud, permitiendo el conformado de piezas grandes.",
@@ -412,19 +377,18 @@
       }
     },
     "service-6": {
-      "title": "Mantenimiento",
-      "text-1": "Los servicios industriales ayudan a las empresas a optimizar sus operaciones mediante la identificación de ineficiencias y la implementación de soluciones. Esto puede conducir a menores costos operativos, mayor productividad y una ventaja competitiva más sólida. Muchos servicios industriales brindan acceso a conocimientos y habilidades especializados que podrían no estar disponibles internamente. Esta experiencia puede conducir a una mejor toma de decisiones y soluciones innovadoras que impulsen el crecimiento.",
-      "text-2": "En una era en la que el crecimiento industrial es primordial, la eficiencia y la eficacia de los servicios industriales desempeñan un papel fundamental para impulsar el éxito en diversos sectores. Desde la fabricación y la construcción hasta la logística y el mantenimiento, los servicios industriales abarcan una amplia gama.",
+      "title": "Desarrollo de Proyectos Industriales e Ingeniería",
+      "text-1": "Ofrecemos servicios integrales de ingeniería y desarrollo de proyectos industriales, aprovechando nuestra amplia experiencia y conocimiento técnico para proporcionar soluciones innovadoras y eficientes. Nuestro equipo de ingenieros altamente calificados se especializa en el diseño y planificación de instalaciones industriales, optimización de procesos y mejora continua de sistemas existentes. Utilizamos herramientas avanzadas de diseño como Autocad 2012 para crear planos detallados y modelos 3D, permitiendo una visualización clara de los proyectos antes de su implementación.",
+      "text-2": "Nuestros servicios abarcan desde el análisis inicial de necesidades hasta la gestión completa de proyectos, incluyendo cálculos estructurales, diseño arquitectónico y planificación de la producción asistida por computadora (CAM). Nos enfocamos en desarrollar soluciones personalizadas que mejoren la eficiencia operativa, reduzcan costos y aumenten la productividad de nuestros clientes, siempre considerando las normativas vigentes y las mejores prácticas de la industria.",
       "includes": {
-        "title": "Nuestros servicios de Construcción General incluyen:",
-        "item-1": "Instalaciones eléctricas y mecánicas",
-        "item-2": "Mantenimiento preventivo",
-        "item-3": "Sistemas de refrigeración",
-        "item-4": "Soldadura especializada",
-        "item-5": "Manejo de gases especiales",
-        "item-6": "Sistemas de aire comprimido",
-        "item-7": "Maquinado de piezas",
-        "item-8": "Fabricación de estructuras metálicas"
+        "item-1": "Proporcionamos servicios de diseño y planificación de instalaciones industriales utilizando software CAD avanzado.",
+        "item-2": "Ofrecemos análisis y optimización de procesos industriales para mejorar la eficiencia y reducir costos.",
+        "item-3": "Realizamos cálculos estructurales y diseño arquitectónico para proyectos industriales de diversa escala.",
+        "item-4": "Utilizamos tecnologías de Computer Aided Manufacturing (CAM) para optimizar los procesos de producción.",
+        "item-5": "Gestionamos proyectos completos, desde la conceptualización hasta la implementación y puesta en marcha.",
+        "item-6": "Ofrecemos servicios de ingeniería inversa para mejorar o replicar sistemas y componentes existentes.",
+        "item-7": "Proporcionamos asesoramiento técnico especializado en normativas industriales y mejores prácticas del sector.",
+        "item-8": "Desarrollamos soluciones personalizadas que se adaptan a las necesidades específicas y presupuesto de cada cliente."
       }
     }
   }

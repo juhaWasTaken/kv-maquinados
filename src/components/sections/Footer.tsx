@@ -56,7 +56,7 @@ export function Footer() {
                 </span>
                 {t('contact.schedule')}
               </p>
-              <a href="mailto:proyectos@kvmaquinados.com" className="text-[#535353] flex items-center mt-2 hover:text-[#ff9302] transition-colors">
+              <a href="mailto:proyectos@kvmaquinados.com" className="text-[#535353] flex items-center mt-2 hover:text-[#ff9302] transition-colors break-all">
                 <span className="material-icons text-[#ff9302] mr-2">
                   <Mail fill="#ff9302" stroke="white" />
                 </span>
