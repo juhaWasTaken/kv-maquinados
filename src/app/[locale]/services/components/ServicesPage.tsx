@@ -86,7 +86,7 @@ export function ServicesHome() {
                     {t('title')}
                 </h2>
                 <p className="text-[#535353] text-sm md:text-[0.938rem] lg:text-base text-center max-w-[37.5rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                {t('headerTxt')}
                 </p>
             </div>
 
