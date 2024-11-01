@@ -262,29 +262,29 @@
     "title": "What our clients say?",
     "testimonial": {
       "t1": {
-        "name": "John Doe",
-        "company": "Great Company",
-        "text": "We have been working with KV Maquinados for over 5 years and we are very satisfied with the quality of their work."
+        "name": "Carlos Méndez",
+        "company": "General Maintenance Manager",
+        "text": "The maintenance on our refrigeration system was excellent. KV & Services resolved everything quickly and provided very helpful recommendations. High quality service and total professionalism."
       },
       "t2": {
-        "name": "Jane Smith",
-        "company": "ABC Corporation",
-        "text": "KV Maquinados has exceeded our expectations with their exceptional craftsmanship and attention to detail. We highly recommend their services."
+        "name": "Laura González",
+        "company": "Project Manager",
+        "text": "We requested a custom metal structure, and they fabricated and installed it flawlessly. Their commitment to safety and quality is second to none. recommended!"
       },
       "t3": {
-        "name": "Michael Johnson",
-        "company": "XYZ Inc.",
-        "text": "KV Maquinados is a reliable partner that delivers high-quality products on time and within budget. We look forward to working with them on future projects."
+        "name": "Andrés Ramírez",
+        "company": "Installation Coordinator",
+        "text": "KV & Services helped us with the installation of electrical systems, complying with all regulations. Their attention to every detail was impressive. Very satisfied with the service."
       },
       "t4": {
-        "name": "Sarah Williams",
-        "company": "123 Industries",
-        "text": "KV Maquinados has been an invaluable resource for our company, providing us with innovative solutions to our manufacturing needs. We are grateful for their expertise and professionalism."
+        "name": "María Castillo",
+        "company": "Operations Manager",
+        "text": "They renovated our machines and compressors without delay and improved our efficiency. A reliable team and committed to the customer. We will definitely hire them again."
       },
       "t5": {
-        "name": "David Brown",
-        "company": "456 Enterprises",
-        "text": "KV Maquinados has been instrumental in helping us optimize our manufacturing processes. Their innovative solutions have greatly improved our efficiency."
+        "name": "David Ruiz",
+        "company": "Project Coordinator",
+        "text": "KV Maquinados is a reliable partner that delivers high quality products on time and on budget. We look forward to working with them on future projects."
       }
     }
   },
