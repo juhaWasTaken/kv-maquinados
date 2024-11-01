@@ -66,7 +66,7 @@ export function Footer() {
                 <span className="material-icons text-[#ff9302] mr-2">
                   <Phone fill="#ff9302" stroke="white" />
                 </span>
-                +6221 2002 2012
+                +899 963 7644
               </p>
             </div>
           </div>
