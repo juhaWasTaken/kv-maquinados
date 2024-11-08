@@ -7,9 +7,8 @@ import { useTranslations } from "next-intl";
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: '700' });
 
 export function TestimonialsPortfolio({ className = "" }) {
-
     const t = useTranslations('testimonials');
-
+    
     return (
         <section className={`${className} max-w-[1280px] mx-auto `}>
             <div className="flex flex-col md:justify-between md:flex-row gap-5 mx-5 border-[15px] border-[#f5f5f5] overflow-hidden max-h-fit ">
@@ -31,7 +30,6 @@ export function TestimonialsPortfolio({ className = "" }) {
                         />
                     </div>
                 </div>
-
             </div>
         </section>
     )
